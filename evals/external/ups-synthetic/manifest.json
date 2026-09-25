@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "purpose": "Exploratory OCR/barcode regression benchmark; not model training or an independent holdout",
   "creator": "G (Dynamsoft)",
   "attribution": "UPS Synthetic Shipping Label Dataset, Dynamsoft, 2025.",
@@ -24,7 +24,8 @@
       "source_sha256": "3e57f7e1ac2ba55ae7f968f2c37107778cb993f1db05be2e5810d78c128ecf3d",
       "sha256": "a04be1bfa832cb33111957d74f37d94ebafc90c87d40fe2377764811868fc4d0",
       "bytes": 4687955,
-      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged."
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged.",
+      "orientation": 6
     },
     {
       "id": "dynamsoft-img_8745",
@@ -41,7 +42,8 @@
       "source_sha256": "b5357fde274310fc6a7bda51a637982c8ce6c4cdeed853d4a9eb4d1f0a82069e",
       "sha256": "0ed8eaf37556a47b7d37f0f0f3881907635910823b65a9cd11b4a4f82d498d8c",
       "bytes": 5488875,
-      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged."
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged.",
+      "orientation": 6
     },
     {
       "id": "dynamsoft-img_8746",
@@ -58,7 +60,8 @@
       "source_sha256": "70842c72b25a32921e02d4c63099235602120be140c253825ddf077db6518529",
       "sha256": "2b5250bb3e9857900749ea34948eeb7e6217e059236476dae4c1fe8fa087e444",
       "bytes": 5971175,
-      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged."
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged.",
+      "orientation": 6
     },
     {
       "id": "dynamsoft-img_8760",
@@ -75,7 +78,164 @@
       "source_sha256": "ada1a7a2d4ed80663dfce3f2b0ea197dd77786b8261b97ebfdb9ef96f37991ca",
       "sha256": "28ddb5bccc2020ce6bd5ce7bacccd7ec2d0e2452052ff75b1ba092b1e1fa5b8a",
       "bytes": 5332994,
-      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged."
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged.",
+      "orientation": 6
+    },
+    {
+      "id": "dynamsoft-img_8747",
+      "image": "evals/external/ups-synthetic/IMG_8747.JPG",
+      "group_id": "1Z88899K2324252627",
+      "expected_tracking": "1Z88899K2324252627",
+      "visibly_absent": [
+        "recipient_name",
+        "unit",
+        "weight_lbs"
+      ],
+      "expected_intake_branch": "review",
+      "source_url": "https://raw.githubusercontent.com/Dynamsoft/datasets-from-dynamsoft/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/images/IMG_8747.JPG",
+      "source_sha256": "a06af99399cc2da5d13b0fb24ceee53e0a7c1e22ccd5b818c3428ca3bb381189",
+      "sha256": "d47c9bffb245d7b7809ce217e3e7e90e0a3f95995d8384619cf5d0d6b22f4668",
+      "bytes": 4033000,
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged.",
+      "orientation": 6,
+      "target_scope": "Primary fully visible label; partial neighboring labels may be present. Not an all-barcode ground truth."
+    },
+    {
+      "id": "dynamsoft-img_8748",
+      "image": "evals/external/ups-synthetic/IMG_8748.JPG",
+      "group_id": "1Z67890F0102030405",
+      "expected_tracking": "1Z67890F0102030405",
+      "visibly_absent": [
+        "recipient_name",
+        "unit",
+        "weight_lbs"
+      ],
+      "expected_intake_branch": "review",
+      "source_url": "https://raw.githubusercontent.com/Dynamsoft/datasets-from-dynamsoft/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/images/IMG_8748.JPG",
+      "source_sha256": "a377dcaa85c4a02bd75beda0d8977c1c75c71ee6e15b5e5e424f44c44e1a1a25",
+      "sha256": "30d73116e3919b27b4e2c9b6ea9b51a92f2d90329365302680d505f9b2a5b4f3",
+      "bytes": 4342389,
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged.",
+      "orientation": 6,
+      "target_scope": "Primary fully visible label; partial neighboring labels may be present. Not an all-barcode ground truth.",
+      "visible_weight_text": "1",
+      "weight_unit": null,
+      "notes": "Printed weight value has no explicit unit; do not assume pounds."
+    },
+    {
+      "id": "dynamsoft-img_8749",
+      "image": "evals/external/ups-synthetic/IMG_8749.JPG",
+      "group_id": "1Z11122G0918273645",
+      "expected_tracking": "1Z11122G0918273645",
+      "visibly_absent": [
+        "recipient_name",
+        "unit",
+        "weight_lbs"
+      ],
+      "expected_intake_branch": "review",
+      "source_url": "https://raw.githubusercontent.com/Dynamsoft/datasets-from-dynamsoft/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/images/IMG_8749.JPG",
+      "source_sha256": "67428c435d63b34eb2972278b33b4bd4dd26f52aaae3c88b60bfa9730d257344",
+      "sha256": "594b5c2a4c7c2b7a4fffd13f6db068932d6c88b0ebb291782133be90098e1791",
+      "bytes": 4914764,
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged.",
+      "orientation": 6,
+      "target_scope": "Primary fully visible label; partial neighboring labels may be present. Not an all-barcode ground truth.",
+      "visible_weight_text": "1",
+      "weight_unit": null,
+      "notes": "Printed weight value has no explicit unit; do not assume pounds."
+    },
+    {
+      "id": "dynamsoft-img_8750",
+      "image": "evals/external/ups-synthetic/IMG_8750.JPG",
+      "group_id": "1Z44455H0203040506",
+      "expected_tracking": "1Z44455H0203040506",
+      "visibly_absent": [
+        "recipient_name",
+        "unit",
+        "weight_lbs"
+      ],
+      "expected_intake_branch": "review",
+      "source_url": "https://raw.githubusercontent.com/Dynamsoft/datasets-from-dynamsoft/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/images/IMG_8750.JPG",
+      "source_sha256": "1f6afe4a869ac2335c74a1011c8b8c730f221b54389e17a4ecc2fdbdcdc58445",
+      "sha256": "d92d2f7b2da9a384391904c91055512b1ad8055f929543ef9dd6430c2c12cfa3",
+      "bytes": 5616179,
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged.",
+      "orientation": 6,
+      "target_scope": "Primary fully visible label; partial neighboring labels may be present. Not an all-barcode ground truth.",
+      "visible_weight_text": "1",
+      "weight_unit": null,
+      "notes": "Printed weight value has no explicit unit; do not assume pounds."
+    },
+    {
+      "id": "dynamsoft-img_8751",
+      "image": "evals/external/ups-synthetic/IMG_8751.JPG",
+      "group_id": "1Z77788J1213141516",
+      "expected_tracking": "1Z77788J1213141516",
+      "visibly_absent": [
+        "recipient_name",
+        "unit",
+        "weight_lbs"
+      ],
+      "expected_intake_branch": "review",
+      "source_url": "https://raw.githubusercontent.com/Dynamsoft/datasets-from-dynamsoft/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/images/IMG_8751.JPG",
+      "source_sha256": "024539ca11c6d0122494176d8a6e4c009fc6167a1f47f8dbc5151c665628b59f",
+      "sha256": "5f15f9abe5d8ad191f92530ebb17edc4f7dd162291a4c2c166207ca49bd747fa",
+      "bytes": 5750143,
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged.",
+      "orientation": 6,
+      "target_scope": "Primary fully visible label; partial neighboring labels may be present. Not an all-barcode ground truth.",
+      "visible_weight_text": "1",
+      "weight_unit": null,
+      "notes": "Printed weight value has no explicit unit; do not assume pounds."
+    },
+    {
+      "id": "dynamsoft-img_8752",
+      "image": "evals/external/ups-synthetic/IMG_8752.JPG",
+      "group_id": "1Z12345E0205271688",
+      "expected_tracking": "1Z12345E0205271688",
+      "visibly_absent": [
+        "recipient_name",
+        "unit",
+        "weight_lbs"
+      ],
+      "expected_intake_branch": "review",
+      "source_url": "https://raw.githubusercontent.com/Dynamsoft/datasets-from-dynamsoft/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/images/IMG_8752.JPG",
+      "source_sha256": "33fed0a391e200017d6cd36cd69a7bb1cd51d998e72a4fafd815b706872ad09f",
+      "sha256": "89d5d5c39ee7ba71fbac4c1a72712e6b329864d4496af83edf82be74d63f304c",
+      "bytes": 6183244,
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged.",
+      "orientation": 6,
+      "target_scope": "Primary fully visible label; partial neighboring labels may be present. Not an all-barcode ground truth.",
+      "visible_weight_text": "1",
+      "weight_unit": null,
+      "notes": "Printed weight value has no explicit unit; do not assume pounds."
+    },
+    {
+      "id": "dynamsoft-img_9599",
+      "image": "evals/external/ups-synthetic/IMG_9599.JPG",
+      "group_id": "1Z22233M4041424344",
+      "expected_tracking": "1Z22233M4041424344",
+      "visibly_absent": [
+        "recipient_name",
+        "unit",
+        "weight_lbs"
+      ],
+      "expected_intake_branch": "review",
+      "source_url": "https://raw.githubusercontent.com/Dynamsoft/datasets-from-dynamsoft/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/images/IMG_9599.JPG",
+      "source_sha256": "661ce27db6b01609f633778c99d6901702b0a364e773893e7f98276d21a221aa",
+      "sha256": "0384eabd699f96bbabe06094c79ab1bd43634745954662cf049155a0ba84ceff",
+      "bytes": 7122280,
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged.",
+      "orientation": 6,
+      "target_scope": "Primary fully visible label; partial neighboring labels may be present. Not an all-barcode ground truth."
     }
-  ]
+  ],
+  "coverage": {
+    "photos": 11,
+    "distinct_primary_labels": 10,
+    "upstream_readme_claimed_labels": 18,
+    "upstream_annotation_images": 58,
+    "upstream_annotation_distinct_tracking_ids": 10,
+    "note": "README and annotations disagree on unique count. This subset covers all 10 tracking IDs present in the pinned annotations, not a verified set of 18 labels."
+  }
 }

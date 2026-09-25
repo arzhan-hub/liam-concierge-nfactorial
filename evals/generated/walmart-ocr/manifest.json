@@ -1,0 +1,37 @@
+{
+  "id": "walmart-ocr-demo-01",
+  "kind": "ai-edited synthetic OCR-only fixture",
+  "generator": "built-in imagegen",
+  "source": "Founder-supplied photo; original excluded from repository",
+  "sha256": "5f5180edbea22dbc361fdd12b10e4c9cab8a62c4bcb88b6b22d873aad90f80d4",
+  "bytes": 2301033,
+  "expected": {
+    "recipient_text": "ALEX D.",
+    "order_reference": "900000000000001",
+    "trip": "DEMO",
+    "label_code": "T0001",
+    "storage_text": "AMBIENT",
+    "unit": null,
+    "address": null,
+    "phone": null,
+    "weight_lbs": null,
+    "carrier_tracking": null,
+    "barcode_payloads": [],
+    "intake_branch": "review"
+  },
+  "not_for": [
+    "shipping",
+    "carrier tracking queries",
+    "barcode decoding accuracy",
+    "held-out evaluation"
+  ],
+  "validation": {
+    "visual_review": true,
+    "metadata_fields": 0,
+    "ocr_engine": "Tesseract 5.5.2, eng, psm 11",
+    "recipient_exact": true,
+    "order_reference_exact": true,
+    "all_fields_exact": false,
+    "raw_output": "demo-01.tesseract.txt"
+  }
+}

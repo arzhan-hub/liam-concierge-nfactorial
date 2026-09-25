@@ -2,21 +2,25 @@
 
 ## What is included
 
-The [Dynamsoft UPS collection](evals/external/ups-synthetic/README.md) adds four photographed synthetic labels under CC BY 4.0, with attribution and pinned source hashes. These are photos of three distinct test labels on boxes, not real resident deliveries. Metadata including GPS was removed while keeping image pixels unchanged.
+The [Dynamsoft UPS collection](evals/external/ups-synthetic/README.md) contains 11 photographs of synthetic labels under CC BY 4.0, with attribution and pinned source hashes. These are photos of 10 distinct primary test labels on boxes, not real resident deliveries. Metadata including GPS was removed while keeping image pixels unchanged.
 
-The existing 20 original synthetic PNGs and frozen 40-case golden set remain unchanged. The new photos are a separate exploratory benchmark: they must not be folded into the earlier reported accuracy or counted as four independent labels. No fine-tuning or model training has been performed.
+The existing 20 original synthetic PNGs and frozen 40-case golden set remain unchanged. The new photos are a separate exploratory benchmark: they must not be folded into the earlier reported accuracy or counted as 11 independent labels. No fine-tuning or model training has been performed.
+
+The upstream README claims 18 unique labels, but the pinned annotation file lists 58 image records with only 10 distinct tracking IDs. Our 11-photo subset covers those 10 IDs; it does not establish an 18-label collection. Some expanded photos include partial neighboring labels. Ground truth refers to the primary fully visible label, not every barcode in the frame. Five target labels show weight `1` without an explicit unit: this does not justify assigning 1 lb.
+
+A separate [fictional Walmart-style example](evals/generated/walmart-ocr/README.md) was created with imagegen from a founder-supplied photo. It replaces personal and shipment identifiers and removes both original barcodes. It is OCR-only, with exact expected fields, prompt and local OCR output; it is not part of the UPS benchmark or the frozen golden set.
 
 ## Visual references found online
 
 | Source | Examples / relevance | Repository treatment |
 |---|---|---|
-| [Dynamsoft](https://github.com/Dynamsoft/datasets-from-dynamsoft/tree/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels) | Synthetic UPS-style photographs with multiple barcode types | Four photos included under the declared CC BY 4.0 license |
+| [Dynamsoft](https://github.com/Dynamsoft/datasets-from-dynamsoft/tree/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels) | Synthetic UPS-style photographs with multiple barcode types | 11 photos included under the declared CC BY 4.0 license |
 | [ShipStation shipping label examples](https://help.shipstation.com/hc/en-us/articles/10150289124891-US-Shipping-Label-Examples) | Images for USPS, UPS, FedEx, DHL Express and DHL eCommerce | Reference link; images not redistributed |
 | [Shippo USPS examples](https://support.goshippo.com/hc/en-us/articles/360024319032-USPS-Shipping-Label-Examples-in-Shippo) | Ground Advantage, Priority and Priority Express images | Reference link; images not redistributed |
 | [FedEx test-label PDF](https://developer.fedex.com/api/content/dam/fedex-com/irc/SV_labels/USE_SCHEDULED_PICKUP_FEDEX_GROUND_YOUR_PACKAGING_SENDER_URL_ONLY_PAPER_85X11_TOP_HALF_LABEL.pdf) | Explicitly marked test label | Reference link; redistribution permission not established |
 | [DHL eCommerce Label API](https://developer.dhl.com/api-reference/label-dhl-ecommerce-americas) | Domestic and international examples, different identifier roles | Reference link; images not redistributed |
 | [Amazon Shipping packaging guide](https://shipping.amazon.com/resources/getting-started-guide/how-amazon-shipping-works) | Format and placement reference; not a dataset of Amazon apartment-delivery labels | Reference link |
-| [Walmart Create label](https://developer.walmart.com/us-marketplace/docs/create-label) | Marketplace shipping labels; does not establish the meaning of GMD bag-label codes | Reference link; no GMD image admitted to this dataset |
+| [Walmart Create label](https://developer.walmart.com/us-marketplace/docs/create-label) | Marketplace shipping labels; does not establish the meaning of GMD bag-label codes | Reference link; separate fictional GMD-style OCR fixture linked above; no official GMD image copied |
 
 Accessed September 24, 2026 US Eastern. The search included third-party sources, not just carrier documentation. A publicly viewable picture alone is not evidence of permission to republish it or use it for training. Real founder-supplied label photos remain outside this repository. New examples need image and barcode-content review, provenance and applicable permission.
 
@@ -40,13 +44,13 @@ Install native Tesseract 5 plus `eng` and `osd` data, then:
 npm run eval:ocr
 ```
 
-The command tests three configurations against the same four images: sparse text without orientation detection (PSM 11), sparse text with Tesseract orientation detection (PSM 12), and EXIF-normalized input with PSM 11. A separate ZXing Code128 baseline uses the same EXIF orientation. No crop, resize or image enhancement is applied; prepared buffers stay in memory. It saves raw recognized text, exact tracking matches, runtime, engine version, language-data hashes and fixture hash under `evals/results/`. Whitespace and letter case are normalized; characters are not repaired using expected answers. This command makes no network recognition calls and does not load API credentials. Zero exit status means the experiment completed, not that all labels were recognized correctly.
+The command tests three configurations against the same 11 images: sparse text without orientation detection (PSM 11), sparse text with Tesseract orientation detection (PSM 12), and EXIF-normalized input with PSM 11. A separate ZXing Code128 baseline uses the same EXIF orientation. No crop, resize or image enhancement is applied; prepared buffers stay in memory. It saves raw recognized text, exact tracking matches, runtime, engine version, language-data hashes and fixture hash under `evals/results/`. Whitespace and letter case are normalized; characters are not repaired using expected answers. This command makes no network recognition calls and does not load API credentials. Zero exit status means the experiment completed, not that all labels were recognized correctly.
 
-Original images exceed the app's current 3 MB limit. These are CLI benchmark results, not end-to-end application or physical Android tests. There are no printed recipient fields in this subset, so it cannot measure name or apartment extraction accuracy. Full resident matching requires separate labeled cases.
+Original images exceed the app's current 3 MB limit. These are CLI benchmark results, not end-to-end application or physical Android tests. There are no printed recipient fields on the target UPS labels, so it cannot measure name or apartment extraction accuracy. Full resident matching requires separate labeled cases.
 
-## Recorded result — September 24, 2026 US Eastern
+## Initial four-photo result — September 24, 2026 US Eastern
 
-[Raw report](evals/results/external-ups-ocr-latest.json), Tesseract 5.5.2 and ZXing 0.23.0 on an ARM64 Mac:
+[Original raw report](evals/results/external-ups-ocr-2026-09-25T03-52-24.637Z.json), Tesseract 5.5.2 and ZXing 0.23.0 on an ARM64 Mac:
 
 | Pipeline | Exact tracking | Measured time per photo |
 |---|---:|---:|
@@ -58,6 +62,10 @@ Original images exceed the app's current 3 MB limit. These are CLI benchmark res
 The two successful OCR photos show the **same** underlying label (one of three distinct labels). Two other labels yielded `O` where the expected tracking identifier contains `0`. Orientation affects results substantially. Timings include preparation for the corresponding mode; the EXIF OCR mode includes a full-resolution PNG buffer conversion. They are not Android measurements or a claim about every OCR engine.
 
 Both configurations from the initial unnormalized experiment remain in its timestamped report; the later experiment adds EXIF normalization and barcode decoding. No failures were removed, no model calls were made and no model was trained. This supports testing barcode-first intake with OCR for printed fields, not claiming a measured production savings rate. The images do not test extraction of recipient names or apartments.
+
+## Expanded result — September 25, 2026 UTC
+
+[Expanded raw report](evals/results/external-ups-ocr-latest.json): 11 photos, 10 distinct primary labels, same engines and preprocessing protocol. Raw PSM 11 matched **0/11**, raw PSM 12 **3/11**, EXIF-normalized PSM 11 **7/11**, and the first-Code128 baseline **10/11**. Every OCR process completed. The oblique IMG_9599 photo failed the barcode baseline; failures remain in the report. These are photo counts, not 11 independent labels. No remote recognition calls or training occurred. This expanded result supersedes the initial sample for coverage without altering the frozen golden evaluation.
 
 ## How examples improve the service
 

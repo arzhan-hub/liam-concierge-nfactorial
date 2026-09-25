@@ -28,7 +28,7 @@ const languageHashes = {};
 for (const lang of ["eng", "osd"]) {
   if (dataPath) languageHashes[lang] = hash(await readFile(`${dataPath}/${lang}.traineddata`));
 }
-if (manifest.license !== "CC-BY-4.0" || manifest.cases.length !== 4)
+if (manifest.license !== "CC-BY-4.0" || manifest.cases.length !== manifest.coverage.photos)
   throw new Error("Unexpected fixture manifest. Review sources before running.");
 for (const c of manifest.cases) {
   if (!/^evals\/external\/ups-synthetic\/IMG_\d+\.JPG$/.test(c.image)) throw new Error("Unexpected image path");
@@ -92,7 +92,8 @@ const timestamp = new Date().toISOString();
 const report = { suite: "external-ups-ocr", timestamp, manifest_sha256: hash(manifestBytes),
   engine: version, sharp_version: sharp.versions.sharp, platform: process.platform, arch: process.arch, language_data_sha256: languageHashes,
   llm_calls: 0, external_recognition_requests: 0,
-  limitations: "Four photos of three synthetic labels. Exploratory, not a held-out production evaluation. Measures tracking text and a separate Code128 baseline, not resident matching or mobile performance. Original photos exceed the app's 3 MB upload limit. No model training performed.", results, barcode };
+  coverage: manifest.coverage,
+  limitations: "Synthetic label photos. Exploratory, not a held-out production evaluation. Scores the primary label tracking text and a separate first-Code128 baseline, not all neighboring labels, resident matching or mobile performance. Original photos exceed the app's 3 MB upload limit. No model training performed.", results, barcode };
 await mkdir("evals/results", { recursive: true });
 await writeFile(`evals/results/external-ups-ocr-${timestamp.replaceAll(":", "-")}.json`, JSON.stringify(report, null, 2) + "\n");
 await writeFile("evals/results/external-ups-ocr-latest.json", JSON.stringify(report, null, 2) + "\n");

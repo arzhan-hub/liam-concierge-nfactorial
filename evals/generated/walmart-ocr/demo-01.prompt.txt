@@ -1,0 +1,7 @@
+Use case: text-localization.
+Asset type: synthetic OCR test photograph for Liam Concierge, NOT a usable shipping label.
+Input image: edit target, user's photograph of a brown Walmart delivery bag with orange-bordered label.
+Preserve the photograph's realistic paper texture, folds, perspective, orange label border, lighting and print layout. Replace ALL recipient/order/route identifiers and dates on the sticker. Exact replacement text, top to bottom:
+circle "1"; large "T0001"; "10:00 AM"; "GMD Trip:DEMO"; "ALEX D."; "900000000000001"; "W+" and "AMBIENT"; "01-Jan  9:00 AM  P00000".
+Add a clearly legible small line "SYNTHETIC TEST - NOT FOR SHIPPING" on the paper immediately below the sticker.
+Remove BOTH original barcodes completely, the barcode on the sticker and the separate vertical barcode on the bag. Replace each barcode region with a solid light gray rectangle containing the words "TEST CODE" (rotated on the side if needed). Do not preserve or generate any scannable barcodes or QR codes. No original personal text or original numeric identifiers may remain. Do not add a street address, apartment, phone, or weight, since those fields are absent in this label. Remove the visible hand and replace the interior background with a neutral gray studio background while retaining the same bag and camera angle. This is a fictional OCR-only fixture; precise text is important.
