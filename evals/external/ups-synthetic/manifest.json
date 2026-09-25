@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "purpose": "Exploratory OCR/barcode regression benchmark; not model training or an independent holdout",
+  "creator": "G (Dynamsoft)",
+  "attribution": "UPS Synthetic Shipping Label Dataset, Dynamsoft, 2025.",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_commit": "654e7fa343bca0d19db349480e29cc176d36668a",
+  "license_evidence_url": "https://github.com/Dynamsoft/datasets-from-dynamsoft/blob/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/README.md",
+  "publisher_statement": "The source declares these labels synthetic, with no real shipments or personal data.",
+  "cases": [
+    {
+      "id": "dynamsoft-img_8743",
+      "image": "evals/external/ups-synthetic/IMG_8743.JPG",
+      "group_id": "1Z11100L0708091011",
+      "expected_tracking": "1Z11100L0708091011",
+      "visibly_absent": [
+        "recipient_name",
+        "unit",
+        "weight_lbs"
+      ],
+      "expected_intake_branch": "review",
+      "source_url": "https://raw.githubusercontent.com/Dynamsoft/datasets-from-dynamsoft/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/images/IMG_8743.JPG",
+      "source_sha256": "3e57f7e1ac2ba55ae7f968f2c37107778cb993f1db05be2e5810d78c128ecf3d",
+      "sha256": "a04be1bfa832cb33111957d74f37d94ebafc90c87d40fe2377764811868fc4d0",
+      "bytes": 4687955,
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged."
+    },
+    {
+      "id": "dynamsoft-img_8745",
+      "image": "evals/external/ups-synthetic/IMG_8745.JPG",
+      "group_id": "1Z33344N5051525354",
+      "expected_tracking": "1Z33344N5051525354",
+      "visibly_absent": [
+        "recipient_name",
+        "unit",
+        "weight_lbs"
+      ],
+      "expected_intake_branch": "review",
+      "source_url": "https://raw.githubusercontent.com/Dynamsoft/datasets-from-dynamsoft/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/images/IMG_8745.JPG",
+      "source_sha256": "b5357fde274310fc6a7bda51a637982c8ce6c4cdeed853d4a9eb4d1f0a82069e",
+      "sha256": "0ed8eaf37556a47b7d37f0f0f3881907635910823b65a9cd11b4a4f82d498d8c",
+      "bytes": 5488875,
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged."
+    },
+    {
+      "id": "dynamsoft-img_8746",
+      "image": "evals/external/ups-synthetic/IMG_8746.JPG",
+      "group_id": "1Z99900P6061626364",
+      "expected_tracking": "1Z99900P6061626364",
+      "visibly_absent": [
+        "recipient_name",
+        "unit",
+        "weight_lbs"
+      ],
+      "expected_intake_branch": "review",
+      "source_url": "https://raw.githubusercontent.com/Dynamsoft/datasets-from-dynamsoft/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/images/IMG_8746.JPG",
+      "source_sha256": "70842c72b25a32921e02d4c63099235602120be140c253825ddf077db6518529",
+      "sha256": "2b5250bb3e9857900749ea34948eeb7e6217e059236476dae4c1fe8fa087e444",
+      "bytes": 5971175,
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged."
+    },
+    {
+      "id": "dynamsoft-img_8760",
+      "image": "evals/external/ups-synthetic/IMG_8760.JPG",
+      "group_id": "1Z33344N5051525354",
+      "expected_tracking": "1Z33344N5051525354",
+      "visibly_absent": [
+        "recipient_name",
+        "unit",
+        "weight_lbs"
+      ],
+      "expected_intake_branch": "review",
+      "source_url": "https://raw.githubusercontent.com/Dynamsoft/datasets-from-dynamsoft/654e7fa343bca0d19db349480e29cc176d36668a/UPS-Synthetic-Labels/images/IMG_8760.JPG",
+      "source_sha256": "ada1a7a2d4ed80663dfce3f2b0ea197dd77786b8261b97ebfdb9ef96f37991ca",
+      "sha256": "28ddb5bccc2020ce6bd5ce7bacccd7ec2d0e2452052ff75b1ba092b1e1fa5b8a",
+      "bytes": 5332994,
+      "modifications": "Removed metadata including GPS and camera details; retained only EXIF orientation. Decoded pixels verified unchanged."
+    }
+  ]
+}

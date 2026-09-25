@@ -1,0 +1,230 @@
+{
+  "suite": "external-ups-ocr",
+  "timestamp": "2026-09-25T03:52:24.637Z",
+  "manifest_sha256": "7a15acb3bfc70a9aeccc8b8432ccda104eadede702cb83a50d4994fb2d5c64f7",
+  "engine": "tesseract 5.5.2",
+  "sharp_version": "0.35.4",
+  "platform": "darwin",
+  "arch": "arm64",
+  "language_data_sha256": {
+    "eng": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+    "osd": "9cf5d576fcc47564f11265841e5ca839001e7e6f38ff7f7aacf46d15a96b00ff"
+  },
+  "llm_calls": 0,
+  "external_recognition_requests": 0,
+  "limitations": "Four photos of three synthetic labels. Exploratory, not a held-out production evaluation. Measures tracking text and a separate Code128 baseline, not resident matching or mobile performance. Original photos exceed the app's 3 MB upload limit. No model training performed.",
+  "results": [
+    {
+      "psm": 11,
+      "orientation": "raw",
+      "description": "Sparse text without orientation detection",
+      "summary": {
+        "images": 4,
+        "distinct_labels": 3,
+        "exact_tracking_matches": 0,
+        "completed": 4
+      },
+      "rows": [
+        {
+          "id": "dynamsoft-img_8743",
+          "group_id": "1Z11100L0708091011",
+          "expected_tracking": "1Z11100L0708091011",
+          "candidates": [],
+          "exact_tracking_match": false,
+          "latency_ms": 2232,
+          "raw_text": "ae\n\nSe\n\na”\n\nSt\n\n=\n\nees\n\nsceihs\n\naoe\n\nan.\n\na |\n\nee\n\n=\n\n4\n\neid.\n\nve\n\neG\n\nee a\n\nAles\n\nNES\n\neM\n\nsee\n\nef ae\n\n)\n\nBax\n\nvoy\n\nok.\n\nad\n\n7 ie\n\n=\n\neA]\n\ni\n\naay Since AS\n\nef,\n\nm\n\nEs\n\nie\n\na\n\nae oS\n\ncs\n\nae\n\nwe ¢\n\na\n\nber\n\naf\n\nf\n\nBaa\n\nah\n\nat\n\nee\n\noN\n\nPi\n\n5ee\n\nBe.\n\niH\n\na\n\nne ea\n\nRa\n\nTiel |\n\n2\n\nred\n\nts\n\nae\n\nEs\n\nwy\n\nwis\n\nrt\n\niS\n\n3\n\ncya\n\nLae\n\na8\n\nae\n\nese\n\n+\n\n:\n\neo\n\na3\n\n“ee\n\na.\n\nRZ\n\nPe\n\naig\n\n2\n\n—o\n\n=\n\nwe\n\n&\n\ney\n\ni\n\n&\n\nrh\n\nPetes\n\not\n\nae wi\n\nek\n\nme\n\nhe\n\nSites?\n\n=\n\na\n\n<i\n\naS\n\ntt\n\nJs\n\nRy\n\n‘fui\n\nAe\n\nen\n\nbi\n\niar te\n\nie\n\npity\n\nee\n\nie\n\n=i,\n\nee\n\nni\n\ncts\n\n“2\n\noe\n\n-\n\nFe,\n\ncs\n\nFP,\n\n~\n\nRe\n\nAe\n\n=\n\noe\n\nae\n\neran\n\nAS\n\nax\n\nai\n\n%\n\nwee\n\nCal\n\n&\n\nit\n\nic\n\nra\n\n2 eee\n\n>\n\nae\n\nrh\n\nme\n\nEh <\n\net\n\nweg\n\nSs\n\nee\n\nss\n\nwy?\n\nmarie\n\nAE ie\n\nbei\n\nhte\n\ney\n\nx\n\nAe a\n\n2\n\nss\n\nre\n\nSee\n\nmy Cte\n\nie\n\nte\n\n“ad\n\n= &\n\n¥\n\nont\n\nret\n\n4\n\neS nce\n\nYe\n\ned\n\nSES AS\n\n|\n\nmt\n\nST\n\nif\n\nm4\n\noe\n\n})\n\n00S 0%o:\n\n— %\n\neo@\n\n© % o20,0°\n\nC58\n\nee\n\nP<\n\n><)\n\nSee ©\n\nooo\"\n\neZeso\n\ni\n\nv\n\n9 oo\n\neo ¢\n\n08\" ge\n\nid\n\n3° $5 of\n\n\\j\n\nom\n\no¢\n\n‘Og®,\n\n3\n\n©@\n\nee\n\n%e\n\n0%\n\ni\n\ne@#eoee\n\no°% 333\n\no,0°°\n\nofe\n\n><\n\n/\n\nee\n\ne\n\noe\n\nat\n\nee\n\n@ @,\n\n‘Pease,\n\nPee? @\n\n|\n\neee\n\ngore\n\neo O°,\n\n2\n\n2% 0° © So,\n\nos °\n\ner:\n\n@ ©,\n\n@ © *3°oee\n\n” $5 3\n\n4\n\n“32 eo\n\nos\n\noe ide\n\nf\n\noases e\n\n3, o. x:\n\nait?\n\n~~\n\n‘io\n\n.————\n\nit)\n\nyf\n\n_\n\n—\n\nq\n\n_ |\n\nee .\n",
+          "completed": true
+        },
+        {
+          "id": "dynamsoft-img_8745",
+          "group_id": "1Z33344N5051525354",
+          "expected_tracking": "1Z33344N5051525354",
+          "candidates": [],
+          "exact_tracking_match": false,
+          "latency_ms": 1261,
+          "raw_text": "A Bok\n\nER DAD Ga\n\nhy\n\n.\n\n*\n\na, Lota:\n\nAh A A\n\nwe\n\nPst te\n\niv\n\n*\n\ni\n\nNt 4 a a ESP PARE i 0p? Ae si\n\n4\n\n4\n\nYr\n\ney\n\nee Ate\n\nEe\n\n|\n\nof\n\n‘\n\n#\n\n+\n\n¢\n\na\n\nTet vag\n\nPy\n\n\\¢\n\ni,\n\n‘ee\n\n(ie\n\nat\n\niw\n\niq\n\nve\n\nba\n\n>:\n\n$e\n\na\n\n*\n\niN\n\nby\n\nyin\n\n1\n\nfe\n\n2\n\nMy\n\n~\n\nVy\n\niy\n\n|\n\nwees\n\n) .\n\nfe\n\ni\n\na\n\nit\n\nFe\n\nx\n\n})\n\n\\y\n\nea\n\na\n\n“\n\nEB\n\ni\n\nbh\n\n1\n\n}\n\ni\n\neee? «\n\n3,°e3\n\n% 3\n\nZe o° o2\n\nbd\n\nPS\n\nPd 3\n\ned\n\n3\n\n(<\n\nFe,\n\n0° ©\n\neo £380,\n\n% Se8,\n\nCon %\n\nof 3\n\n1}\n\nsf e ost” e\n\no\n\nS39\"\n\neee\n\noof\n\na\n\n1}\n\ne¢ore\n\nee\n\ni\n\nb\n\none 4,\n\no°\n\n© @,\n\n3\n\n> 252 2\n\nfe o*\n\nod\n\n3\n\n3e°eds\n\neee\n\nor 2\n\nbe)\n\n\\]\n\nSe\n\n@,\n\n2008\n\n'e,\n\n@ 3\n\neo\n\n3\n\n+.\n\n3.3\n\noo o%\n\nbe.\n\neo\n\ni\n\n\\\\\n\n4|\n\n\\V\n\ne\n",
+          "completed": true
+        },
+        {
+          "id": "dynamsoft-img_8746",
+          "group_id": "1Z99900P6061626364",
+          "expected_tracking": "1Z99900P6061626364",
+          "candidates": [],
+          "exact_tracking_match": false,
+          "latency_ms": 1134,
+          "raw_text": "J,\n\n—\n\nf \\\n\n~\n\nif\n\na\n\n*\n\nZz\n\ni}\n\né\n\nTy\n\n7)\n\neR he ¥ ar a8 et “ -* Ait PB 1h ote\n\n=\n\nse CAT ec nae whe oat hit\n\n*\n\n£\n\n3\n\ni\n\n«\n\nIR cP ope obo ty Por agg vi Peo”\n\ndot of\n\nte\n\n-\n\n\\) F\n\n-\n\nf\n\nis\n\nmyst\n\nPr\n\n—\n\nit\n\nBS\n\n| ‘\n\n«4\n\nv\n\ni?\n\nRR\n\nSion,\n\nems\n\na\n\n5\n\nSo]\n\nbx |\n\nare\n\nose\n\n© 0° 0.0%,\n\n3\n\n@ 6@'\n\n09°08\n\nose\n\n%\n\nati\n\n@  %\n\n0%\n\ne Se o\n\n39\n\n93\n\nge\n\nog 388%\n\n9%,\n\n> 0° o.0\n\n%\n\ne ose &\n\nis\n\n2 @ 0%\n\n© %e @ efo\n\nrh\n\noe\n\n6249\n\n@ © On0 oF\n\nese 80,\n\n{|\n\noe\n\nZe\n\n2.3\n\no ©\n\nje? =\n\n33\n\n3809’\n\ne6\n\noe\n\n© 50 oe\n\neo\n\na)\n\nee\n\n4 2\n\na\n\nv>\n\ni ®\n\n*\n",
+          "completed": true
+        },
+        {
+          "id": "dynamsoft-img_8760",
+          "group_id": "1Z33344N5051525354",
+          "expected_tracking": "1Z33344N5051525354",
+          "candidates": [],
+          "exact_tracking_match": false,
+          "latency_ms": 2468,
+          "raw_text": "wn\n\n(y\n\nvy\n\n— >\n\nTd ey\n\n12\n\nLy ated\n\nCs\n\nty\n\nf ®\n\nfi\n\nme\n\nFa\n\nie\n\nAPU -\n\nvite\n\nay\n\noy\n\nya\n\nets\n\n#.\n\nant\n\ndy\n\na\n\nMPG ae\n\nie\n\nUre\n\naA\n\niNe\n\nfa3\n\n2\n\nT,\n\nek\n\nBu.\n\n39s\n\n*\n\n—_\n\na\n\n———————\n\n—————_\n\n———————_—\n\nes\n\n© Enna\n\né\n\ni,\n\nae\n\n5\n\n$y\n\nPed\n\nES\n\n3 i\n\nOS p.\n\nwe\n\nee\n\nZ\n\nCA dan\n\nbP «\n\noe\n\nity\n\nSige 3\n\nrae\n\n,°\n\n*\n\nGe)\n\ny@\n\n9 ond 3 3 ee *e\n\nA\n\nos8\n\nie\n\n2\n\nfue\n\n<\n\nim\n\no*Se\n\na\n\nF\n\nweal\n\nage\n\nAN\n\n=\n\nFa\n\nMe: tba 303\n\nins\n\nRA\n\nws\n\n(ake\n\nMe\n\nit\n\n30°\n\nay\n\nbg hs\n\n4\n\na\n\nma\n\nWy\n\nRN\n\nEe\n\nfal\n\naie\n\npia\n\nx\n\neo, %\n\nds\n\na |\n\nwet\n\nBees\n\n® @\n\no¢\n\nBA\n\nae\n\nts\n\nee\n\nies\n\n\"\n\no*.\n\nSo4\n\nad\n\nAbs\n\nny\n\na\n\ntne\n\nAte\n\ner ns 1}\n\noa\n\n3° 0% 6\n\n*\n\nad\n\ni\n\nwe\n\n@\n\n© @,\n\nay\n\nA\n\nre\n\nay\n\noh\n\nny\n\nSee\n\nmae\n\nHt\n\n© ©\n\nSPR\n\nce? nS\n\ntal\n\na % °\n\noe\n\nmm\n\nfay\n\nmgt\n\nyf\n\nny\n\nBy\n\na be\n\non\n\nee\n\nx\n\nVat f\n\neal)\n\nas +s, Ld ap\n\nt\n\n4\n\nve\n\nwn\n\nif\n\nBA\n\nte\n\ni &\n\nwe,\n\nad:\n\nbe, SR\n\n*\n\nfs\n\nes\n\nSeco\n\n>\n\nihe\n\n# i\n\n‘\n\n©\n\na,\n\n+a\n\ni\n\nNan\n\naa:\n\n©\n\neke\n\nTh\n\niy)\n\nok\n\nioe a\n\nAt\n\nity\n\n\\) |\n\nv4\n\nered\n\n4\n\nRees\n\n8\n\n4\n\na\n\na\n\nYe\n\n) a3\n\nSeer ff\n\na\n\nee\n\ni\n\nie\n\n»\n\n4\n\n5 So\n\nee aa\n\nfe\n\npee\n\nat\n\nSts\n\nis\n\nis\n\n(ou\n\nay\n\n144\n\nAy\n\nede\n\ni\n\nPa)\n\n%\n\nbe\n\nvy\n\nval\n\n+e,\n\nay\n\nabi\n\nmf\n\ney\n\nay\n\nme eee\n\n7\n\n|\n\nuy\n\nrp.\n\neee ae\n\nBT PALE SS, Oe\n\no 77,\n\nAE as\n\ntd ha Say\n\nie ©\n\ngO\n\nBa fg to a at\n\ni.\n\n37s\n\nSy\n\ngai\n",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "psm": 12,
+      "orientation": "raw",
+      "description": "Sparse text with Tesseract orientation detection",
+      "summary": {
+        "images": 4,
+        "distinct_labels": 3,
+        "exact_tracking_matches": 0,
+        "completed": 4
+      },
+      "rows": [
+        {
+          "id": "dynamsoft-img_8743",
+          "group_id": "1Z11100L0708091011",
+          "expected_tracking": "1Z11100L0708091011",
+          "candidates": [
+            "1Z111OOL0708091011"
+          ],
+          "exact_tracking_match": false,
+          "latency_ms": 3270,
+          "raw_text": "—\n\na\n\na\n\nSe ll —_—\n\n>\n\nCes\n\na\n\n_—\n\ngO\n\n=\n\nE/\n\nMoby\n\noe\n\nney)\n\ndy\n\nca]\n\n‘il\n\na\n\n¢\n\nCOe\n\n5 4\n\nSSCOEOOOE €\n\ncas:\n\n3\n\n©,\n\n@ ee\n\nre\n\n%\n\ne\n\ne\n\nsq\n\neg?\n\neo,\n\neee\n\n.\n\nee\n\n&\n\n$\n\nee\n\nee\n\nSe\n\n:\n\n<\n\n:\n\n‘\n\né\n\nA8\n\n59 2-38\n\nY\n\n099\n\n$2\n\n. 2\n\neee\n\nxe\n\neee\n\nCe\n\n¢\n\n‘\n\nSEE\n\n‘\n\no\n\nSd\n\neo\n\n‘.\n\n;\n\n¢\n\no &\n\n~\n\ne\n\nee\n\nee\n\ne\n\nee\n\n3\n\n3 3\n\n2,\n\né\n\n%\n\n:\n\n‘e\n\n2\n\ne, e\n\nee\n\neo\n\n*%\n\n‘e\n\noe\n\nee:\n\n;\n\nee\n\n:\n\n@®.\n\n2\n\n*.\n\ne\n\n3\n\n3\n\n?\n\ni\n\n3\n\n%\n\n°\n\nte\n\n:\n\n:\n\n;\n\n‘ot\n\n‘\n\nCoe\n\n%\n\nee\n\nAA\n\nI\n\nUNIT\n\nSéee\n\noe\n\nee\n\nPr)\n\n0O0@\n\nee\n\nCOS\n\nee\n\n%\n\n:\n\n:\n\neeeoe\n\neee\n\ne\n\neo\n\nUPS 2nd Day Air\n\n4\n\nf\n\nIM\n\n1Z 111 OOL 07 0809 1011\n\nHH)\n\nTRACKING NUMBER\n\nSHIPMENT\n\n1110 0L7D B7G\n\nID NUMBER\n\n4\n\nroo\n\neye\n\nSe\n\nie\n\nce\n\na.\n\na et\n\nis\n\nx\n\nBay\n\nv4\n\n“\n\na\n\nog\n\n(Fes\n\nVs\n\nee\n\nAs\n\nee\n\n“gh\n\nra\n\ncoast\n\nee\n\nme\n\nFa\n\nBe\n\nates\n\ndns\n\noe\n\noe\n\ngh 3 PT\n\nere\n\noe\n\nme\n\n‘ee\n\nHP\n\nSs os POE:\n\n+ te\n\nos\n\n;\n\nJ ehos\n\nal.\n\nss\n\nra a Es\n\nr &\n\n2\n\nim\n\nSekt\n\n=4\n\na\n\nee\n\nstipe\n\ncia\n\nae\n\nee\n\nof Be\n\n<\n\n[ee\n\ns\n\ng\n\ntie\n\nBa\n\nar\n\n%\n\nSPER\n\neee A\n\na Bae <0\"\n\n%\n\ni\n\not\n\nRe\n\nee\n\n=.\n\n%\n\nae\n\nae\n\n38\n\nae\n\nvs,\n\nnme\n\na\n\nte aed\n\nfe \\\n\nees\n\ni\n\naed\n\nns\n\nBee\n\n2\n\nPee\n\nrin\n\na0\n\naa\n\nck\n\ntie\n\nEee\n\nme\n\nie\n\n=\n\nfx\n\nhs\n\nBags\n\nvs\n\n*\n\n#\n\ncof,\n\nShalt\n\nae\n\nwoh\n\neS\n\nc\n\na\n\na\n\nge AY\n\nPa\n\nim L\n\n-\n\n~*\n\n36\n\nSitios OR\n\nPade\n\np;\n\nPoubge ik\n\nhe\n\naz\n\ni\n\nPpa:\n\na\n\na\n\nue\n\nBas\n\nen\n\nne.\n\n6\n\nie\n\n:\n\na ae\n\nRe\n\n5,\n\n7\n\nMe\n\naS\n\nos.\n\naa\n\ng&\n\n%§\n\nae\n\nos\n\nny\n\nre\n\nSS\n\n= €.\n\na oe ey eo,\n\nys\n\nNM Pak\n\ni i a\n\nmo ee\n\na ee\n\neee;\n\neS\n\nZid,\n\nWe\n\nZ\n\nge\n\n—;\n\nseep.\n\nSCT oR eo Aa\n",
+          "completed": true
+        },
+        {
+          "id": "dynamsoft-img_8745",
+          "group_id": "1Z33344N5051525354",
+          "expected_tracking": "1Z33344N5051525354",
+          "candidates": [],
+          "exact_tracking_match": false,
+          "latency_ms": 1854,
+          "raw_text": "\\\\)\n\nAd BA\n\nhy\n\noa\n\nS, has Pa 4 ee |\n\nim\n\nwe\n\niy\n\n*\n\ni\n\n4\n\nCity Sanit Hi, descent\n\n4\n\nYr\n\nPy\n\na.\n\nMalik\n\no\n\n#\n\n+\n\na\n\nPy\n\n\\¢\n\n\\\n\niq\n\nPS\n\nah\n\na\n\n*\n\niN\n\nBy\n\n‘\n\n\\\n\n*\n\nfe\n\n2\n\nVy\n\niy\n\nweek\n\ni\n\n|\n\n2\n\n4\n\nill\n\nes\n\nx\n\n)\n\n\\y\n\n“\n\n=e\n\n|\n\nTRACKING NUMBER\n\n}\n\n|\n\n:\n\n| \\\n\n}\n\n‘\n\neee? «\n\nHL\n\n3,°e3\n\n% 3\n\n3334 4N7D R6W\n\nZe o° o2\n\nbd\n\nPS\n\nPd 3\n\noe\n\n0°\n\n3\n\nFe,\n\nCd aR 5 2\n\n% Se\n\ni\n\nPo:\n\n£3\n\n° ost” ®\n\no3e°\n\n@\n\nGee\n\noof\n\ne¢ore\n\nee\n\né\n\nb\n\neo ©,\n\n3° o@\n\n© @,\n\nee 2\n\nfe o*\n\nod\n\nts\n\n;\n\nood.\n\neee\n\n0° ene\n\n° 3\n\nbe)\n\nUPS 2nd Day Air\n\nSHIPMENT\n\nID NUMBER\n\nSe\n\n@,\n\n08s\n\n'e,\n\n2 @\n\neo of\n\n3\n\n424\n\n3.3\n\noo\n\na\n\neo\n\ni\n\nll\n\n1\n\n4|\n\n4\n\n’\n",
+          "completed": true
+        },
+        {
+          "id": "dynamsoft-img_8746",
+          "group_id": "1Z99900P6061626364",
+          "expected_tracking": "1Z99900P6061626364",
+          "candidates": [
+            "1Z999OOP6061626364"
+          ],
+          "exact_tracking_match": false,
+          "latency_ms": 1913,
+          "raw_text": "J,\n\n*\n\nZz\n\n|\n\ni}\n\né\n\na\n\nSe,\n\n|\n\n‘\n\n* et “ =a «& Ais af Red TR ot\n\nse CAT ec nae whe oat hit\n\nPott\n\n3\n\ni\n\n«\n\nIR cP ope obo ty Por agg vi Peo”\n\nf\n\nis\n\n|\n\na ee\n\nRR\n\nea ee ao\n\nPs Fa.\n\n———\n\nHl\n\nee\n\nTRACKING NUMBER\n\nare\n\n1Z 999 OOP 60 6162 6364\n\n°° 59\n\n<8,\n\n9990 OP7D D8E\n\n@ 6@'\n\n44\n\n09°08\n\nose\n\ne 33\n\nIC\n\nati\n\n@  %\n\ne Se o\n\n39\n\nge\n\n9%,\n\n> 0° o.0\n\n3 0% 383%:\n\n%\n\n]\n\ne eg &\n\n%\n\nge @\n\n4\n\n3\n\n@?\n\n© ee\n\noe\n\n© ee\n\nese 80,\n\nSe\n\nSOOOOOEE ©\n\n@\n\n©\n\nUPS 2nd Day Air\n\n22,08\n\neo\n\ned\n\nSHIPMENT\n\nID NUMBER\n\nODOC EEO\n\nSee\n\n33\n\n3809’\n\ne6\n\n°\n\nee ee\n\n%e,\n\nAll\n\n© 50 oe\n\neo\n\n1} }\n\nee\n\n>\n",
+          "completed": true
+        },
+        {
+          "id": "dynamsoft-img_8760",
+          "group_id": "1Z33344N5051525354",
+          "expected_tracking": "1Z33344N5051525354",
+          "candidates": [],
+          "exact_tracking_match": false,
+          "latency_ms": 4322,
+          "raw_text": ">\n\n©\n\nat\n\nShh\n\na\n\n“=\n\n1\n\nve,\n\nwit yh}\n\n1h\n\ni\n\nBote\n\nGy\n\nty\n\nf ®\n\nFa\n\ni\n\nyaa, ,\n\n¢\n\nil\n\nuf\n\nay\n\nss\n\noy\n\napi 3! 6} Ba\n\nie\n\nBs\n\nant\n\ni\n\nf:\n\na\n\nAG ois\n\nPie\n\nUre\n\naA\n\niNe\n\n4\n\nB\n\nye,\n\nBe\n\na)\n\nAG)\n\nes\n\n| mall |\n\n|\n\n|\n\nTRACKING NUMBER\n\nCA 859 2-40\n\né\n\ni,\n\nae\n\n$s\n\nPed\n\n5\n\n{\n\n‘3\n\n&\n\na\n\n2\n\nee\n\n2\n\nI\n\nse\n\nPe\n\noe\n\naN\n\nSige 3\n\nre\n\n,°\n\n*\n\nGe)\n\n2\n\ny@\n\na a 3 3 *o§ ~\n\n2\n\n‘\n\na\n\n3334 4N7D R6W\n\n-\n\n2\n\nfue\n\n<\n\nve\n\ni)\n\n; 1\n\nae\n\neH\n\nsig\n\nae\n\nane\n\nLs\n\nMe\n\nii:\n\nif\n\n3\n\n4\n\nts\n\nMe\n\n30°\n\nae\n\nay\n\nag te\n\nrye\n\ni:\n\nma\n\nWy\n\nRN\n\note ' st “ie\n\nfal\n\nees\n\nj\n\nx\n\nds\n\na |\n\nwet\n\nBees\n\n*\n\n+\n\n® @\n\nFat)\n\nBA\n\nRE\n\n8\n\nye\n\nee\n\nies\n\n\"\n\nvg\n\no*\n\nSo4\n\nirae\n\nae\n\nAbs\n\nny\n\nat\n\na\n\na)\n\nAte\n\ner A, 1}\n\noa\n\n* 6% 6\n\n*\n\ni\n\nE>)\n\n@®\n\n© @,\n\n:\n\n<\n\ney\n\npS\n\nny\n\nSee\n\n-\n\nee\n\nHt\n\n© ©\n\n:\n\nr\n\naa\n\nSe. 3S % °\n\nge\n\n.\n\na\n\nmm\n\nVier\n\nmgt\n\nid\n\n¥\n\nBy\n\n:\n\nx\n\non\n\nee\n\nx\n\nsf\n\nigh\n\neal)\n\nas +s, ° ap\n\nt\n\nSHIPMENT\n\nID NUMBER\n\n4u\n\n7\n\nwn\n\nif\n\nBA\n\nif\n\n1oN\n\na\n\nbe, SR\n\nba\n\nfe\n\nUi\n\nad\n\nSeco\n\n>\n\noth.\n\niF\n\nih\n\n©\n\nA\n\nys\n\n¢\n\n©\n\nFay\n\neke\n\n‘i\n\na;\n\nhy\n\nUh\n\n:\n\nah\n\nay\n\nAa\n\nhe\n\nYi\n\ni\n\n:\n\n‘\n\naN\n\n$\n\ni\n\na\n\npes\n\n‘\n\nCER\n\nj\n\n‘\n\n~\n\n&\n\ni\n\n*\n\n44\n\n5 So\n\n'\n\nTy\n\npee\n\nat\n\nSts\n\nis\n\n,\n\ni)\n\nay\n\n-\n\nAy\n\nede\n\nPa)\n\nif\n\n( yey\n\ney\n\nh\n\nval\n\nyh\n\nay\n\nae!\n\ney\n\nay\n\n7\n\n|\n\ni“\n\neee ae\n\nBT PALE SS, Oe\n\no 77,\n\nAE as\n\ntd ha Say\n\nREA\n\nre,\n\nBa fg to a at\n\nMe\n\ni.\n\n37s\n\nSy\n\n>”\n\ngai\n",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "psm": 11,
+      "orientation": "exif",
+      "description": "EXIF orientation applied before sparse-text OCR",
+      "summary": {
+        "images": 4,
+        "distinct_labels": 3,
+        "exact_tracking_matches": 2,
+        "completed": 4
+      },
+      "rows": [
+        {
+          "id": "dynamsoft-img_8743",
+          "group_id": "1Z11100L0708091011",
+          "expected_tracking": "1Z11100L0708091011",
+          "candidates": [
+            "1Z111OOL0708091011"
+          ],
+          "exact_tracking_match": false,
+          "latency_ms": 7001,
+          "raw_text": "—\n\nee\n\nti\n\n————\n\n——-\n\n—\n\nSE paar\n\nere re\n\nee\n\n_—\n\n—\n\n—\n\nee\n\ni\n\n——\n\nFy\n\nwiinty\n\noaal\n\nts\n\nP\n\nfa\n\nwt\n\nPat\n\né\n\neeee ©\n\n& SOSCSOOSOEOOOE 6\n\ne@ e\n\n@\n\n@\n\neee?\n\n¢\n\n€\n\nSte ¢\n\ne\n\n€\n\n€\n\nee\n\neee\n\n©\n\né\n\nSe\n\n©.\n\nrx)\n\n€\n\nSooo Soe ee\n\nSCOOOO SES\n\n©\n\ne\n\n©\n\noe of\n\nCOSe C6\n\nce © @\n\neeeoe e\n\nA 859 2-38\n\nee\n\ne\n\nLAJ\n\n© SO S606\n\nee Of e\n\n¢\n\nyy SOOd\n\n¢\n\n©\n\nSe\n\nee ¢\n\ne\n\ne\n\nee\n\ne\n\ne¢\n\ne coed?\n\nee\n\n<\n\nO\n\n&\n\n2%,\n\nee\n\nee 06\n\n© o¢\n\nloses\n\node’ 4%\n\nVAAL\n\nLY\n\nee:\n\nCe . O06:\n\nee. of\n\n© *.%\n\nSeoeeee\n\nSOOCe\n\nCAA\n\ne ee\n\neeeee © OOO 6\n\n@ S00e @\n\nMAA\n\nMONIT\n\nP\n\nSeeee S00\n\n@ Stee ¢:\n\neee\n\nY\n\nSee\n\ne Soee e\n\nOe SO\n\n© @\n\n@ 0@ eeeee\n\nOY\n\neee\n\nee 0¢\n\ne\n\ne\n\nUPS 2nd Day Air\n\nIM\n\nHl\n\n1Z 111 OOL 07 0809 1011\n\nill\n\nTRACKING NUMBER\n\nSHIPMENT\n\n1110 0L7D B7G\n\nID NUMBER\n\n—\n\n——_—\n\nBe\n\nPLAS\n\nJe\n\nwi\n\nBe Pe\n\nse\n\nne\n\nis a\n\nce\n\no:\n\n0\n\nANG\n\nean)\n\nfr\n\nwai\n\n&\n\nTete\n\nog\n\n“so\n\na\n\nae\n\nire\n\n&\n\nce\n\n&\n\nah?\n\nTe:\n\nary\n\n4\n\nae\n\nny\n\nms.\n\nke\n\nFi\n\na A\n\npei\n\nBe\n\nfe\n\nae\n\ney\n\npay\n\ne\n\nMe -s8,\n\nRy\n\nps\n\nina 7\n\nae er\n\nee\n\nre\n\nshe\n\nad\n\nmS\n\n=\n\nBp\n\nHei 5)\n\nme\n\nsans\n\nSe\n\nfee\n\nin\n\nRie\n\nCae\n\naa\n\nPegg Bd 4\n\npt\n\nhy,\n\nr\n\nv~\n\nfe\n\nWs\n\nal\n\nel eg\n\n=k\n\n—4™.\n\n64\n\nin\n\nhie\n\n3\n\niy\n\nOe\n\nthe\n\nre ciao\n\na Sal\n\nap\n\net\n\nAy\n\na\n\ney\n\n@\n\nae\n\ncud\n\n3 30\n\nSars\n\nBoe,\n\nMi\n\noe\n\nage\n\not\n\nfe i\n\nad i 3\n\ner\n\nMa\n\n*\n\neh\n\nLg\n\nAy\n\nae\n\nSy\n\na Bo\n\nwa\n\nLis\n\na ee\n\ne\n\nS¢\n\n#.\n\noe\n\naT ety\n\na\n\nhes\n\nee\n\noe\n\ncay\n\ntab\n\npera a\n\nr%\n\nte\n\n& Pate\n\nyas\n\n.\n\ncs\n\noh\n\neee\n\nah\n\nto\n\ni:\n\n4,\n\nMe\n\n-\n\ns\n\ne\n\noe:\n\net\n\nNe\n\n4\n\nTe.\n\n6\n\n-\n\nLP\n\nfro\n\na\n\nBy\n\noa\n\noe\n\ntek)\n\nhe?\n\n&\n\nia\n\nHe\n\nBEER\n\npe\n\n.*\n\nwt\n\n\\\n\n=\n\nny\n\n# he\n\nye\n\niy\n\n%\n\nA yer\n\n=\n\nvas\n\netree gy aoa\n\nSS\n\n7,\n\nGe\n\nUY pat rat De\n\nyg\n\nNN al nA Sl\n\nera ee\n\nay eae\n\n——\n\nIs\n\nag\n\nNEL Fe ae,\n\nee\n\ntf\n\nbide aca\n\nVW\n\n“<i\n\noz\n\nee\n\nEa\n\nab aoe\n\nPR OE RE a\n",
+          "completed": true
+        },
+        {
+          "id": "dynamsoft-img_8745",
+          "group_id": "1Z33344N5051525354",
+          "expected_tracking": "1Z33344N5051525354",
+          "candidates": [
+            "1Z33344N5051525354"
+          ],
+          "exact_tracking_match": true,
+          "latency_ms": 6291,
+          "raw_text": "~\n\n~\n\n——\n\n—\n\n—\n\n——\n\nen\n\n—_\n\n—\n\nnara\n\n——\n\n—\n\n—\n\ney ge,\n\n—\n\n—~-\n\n—\n\n———\n\nFe\n\n—\n\nan\n\nant\n\n—\n\n—_——\n\n—\n\n—\n\nIe\n\nAT tee 8\n\n—\n\n——\n\nsa\n\n= sea Dea 24\n\nS373\n\noO\n\nmod\n\nPj\n\nPing, be)\n\n<i\n\nve\n\n-\n\na\n\noe,\n\nre\n\n¥e\n\n~4\n\nee\n\no 0¢\n\n© 0000000990000 e@\n\neee oocee\n\n£\n\na\n\ns\n\neooe\n\nAA\n\n©\n\n€\n\nOSOCCOOOO\n\nSCOCEOOCE\n\nCCC\n\nOO\n\nee\n\n@\n\n©\n\n© © S6eeeee\n\nfoe\n\nSOO 06\n\nLBAAL\n\neee\n\ngeore\n\nCA 859 2-40\n\nCOoee @\n\nSe COCO\n\nhs\n\neeee\n\n«¢\n\neece\n\n>\n\neee\n\ne\n\ne\n\nee o0e\n\nee\n\n*\n\nALR aAAd\n\neee\n\nSe ©\n\neee\n\noe oe\n\neoee\n\n<\n\n© ecco\n\neee\n\n=p\n\nooo\n\nMA\n\na\n\neeee ©\n\neeceee. = 08\n\n© C06 © 00\n\nae\n\nx\n\n=e\n\nFS\n\ncp?\n\na\n\nSem\n\nUPS 2nd Day Air\n\n2\n\na\n\n=.\n\n<\n\nwe\n\nee\n\n@\n\n—_\n\n5\n\nyrs\n\n“\n\nFZ\n\na4\n\nScot ie-\n\n-\n\nIMI\n\nek\n\n|\n\n1Z 333 44N 50 5152 5354\n\nMMI\n\nTRACKING NUMBER\n\n*\n\nSHIPMENT\n\nID NUMBER\n\n3334 4N7D R6W\n\n=\n\n%\n\n7h\n\n3 |\n\nol\n\nat\n\n=\n\n—\n\nwn\n\n“\n\na\n\nwhee\n\na\n\naot\n\nad\n\n~\n",
+          "completed": true
+        },
+        {
+          "id": "dynamsoft-img_8746",
+          "group_id": "1Z99900P6061626364",
+          "expected_tracking": "1Z99900P6061626364",
+          "candidates": [
+            "1Z999OOP6061626364"
+          ],
+          "exact_tracking_match": false,
+          "latency_ms": 5939,
+          "raw_text": "——\n\nann\n\neomminttnaiatiien\n\noe\n\n| (me\n\na\n\n=\n\n-\n\nPere\n\n—o anne\n\n—\n\n—\n\n—\n\n—\\\n\nZr\n\nSas\n\n~‘y\n\nat\n\na?\n\n—\n\nJat ete\n\neee\n\n‘e.\n\nVie\n\ny-\n\nX\n\n- Se.\n\nCOOoCeOECOOOECE ©\n\n@ ee oe\n\nee eo\n\n@\n\n@\n\neo\n\ne\n\ne\n\n6\n\neee Se &\n\n°\n\n@\n\n@\n\n¥\n\nni\n\nLet\n\n@\n\ne\n\n©\n\n¢\n\n©\n\nee ef\n\nCS . 00\n\nAA\n\nSe\n\nSC SCO CCE SEOS\n\noe\n\n© SCOe\n\ne\n\nSOS ©\n\n& @\n\ne\n\n©\n\n©\n\n©\n\nfe\n\nearn\n\ne\n\n&\n\n€\n\nCECO C6\n\n©\n\nOCOe\n\nPSSCSO\n\noe\n\nee\n\nCA 859 2-41\n\n© cee 6\n\neee\n\nee\n\n4\n\nCee Ce\n\nSoe\n\n“\n\nS Ce cove\n\nana\n\n=\n\neee\n\nSOO\n\noe\n\nce ee\n\nSe Cf\n\nee. ¢\n\nee\n\n© oe\n\n“\n\ne oe\n\nMIMMTA\n\neee @\n\nSe\n\n© ©, cece\n\n© cece\n\neeceooe\n\n2\n\n=\n\nP27\n\nUPS 2nd Day Air\n\nSa\n\n+\n\nares\n\nSd\n\n&\n\n8,\n\nMA\n\n3\n\ni\n\nI!\n\n1Z 999 OOP 60 6162 6364\n\nsill\n\nTRACKING NUMBER\n\nSHIPMENT\n\nID NUMBER\n\n9990 OP7D D8E\n\n.\n\n~~\n\ny\n\nSomes 8\n\nvik\n\nee\n",
+          "completed": true
+        },
+        {
+          "id": "dynamsoft-img_8760",
+          "group_id": "1Z33344N5051525354",
+          "expected_tracking": "1Z33344N5051525354",
+          "candidates": [
+            "1Z33344N5051525354"
+          ],
+          "exact_tracking_match": true,
+          "latency_ms": 6741,
+          "raw_text": "er a tn a a Ee\n\nMe,\n\n~,\n\nGa.\n\ntl >—\n\nSh\n\n—\n\n=\n\nee\n\nSeoSSSeseeeee® @\n\nLA)\n\nee @\n\n@@e0C\n\neo @¢\n\noS\n\n©\n\n© @\n\nAAD\n\nge oe\n\nfous?\n\nCSE OS00\n\nee\n\nCA 859 2-40\n\n© C2 @\n\nee e0¢\n\nee ©\n\ne¢.¢\n\nBAA)\n\n7X\n\neeeee\n\nSee @ @\n\neee\n\nee ee\n\nee\n\nSeee ¢\n\n© e¢\n\nCee o@\n\n© © eece\n\n©eeeeeoe\n\n© eee\n\n© C0e\n\nSoe\n\neeee @\n\n<—\n\nMAP\n\nee€\n\nTN\n\n--\n\nee\n\nF\n\nIr\n\n2\n\nUPS 2nd Day A\n\n%\n\nxe\n\n=\n\n.\n\nrit\n\n|\n\n+i\n\n‘a\n\neo\n\nom\n\nam\n\na.\n\none,\n\n2\n\nnae\n\nTe\n\naes\n\nA, =\n\nIMI\n\nSs\n\n=\n\nAil\n\nRSaart\n\n4\n\n1Z 333 44N 50 5152 5354\n\nMl\n\nee\n\na\n\nSr ees\n\nfees\n\nTRACKING NUMBER\n\n=\n\nss ne\n\na\n\nSeed\n\nSHIPMENT\n\na\n\n=\n\nID NUMBER\n\n3334 4N7D R6W\n\nord\n\n= |\n\n=\n\n4%\n\noe.\n\nfons\n\n3\n\noe\n\nik\n\nae\n\nis\n\nKel\n\nfm\n\npart?\n\nay\n\nae\n\n*\n\nert\n\nbe *\n\n‘es\n\ngee\n\noes\n\net\n\nigen iB\n\nPe\n\nBaa\n\nPi 2\n\n=e\n\nSRS Coad\n\nbea oe\n\noy 2\n\not.\n\na\n\ngalt\n\nee\n\nane\n\nA\n\nCi\n\nPy,\n\nmeee\n\nve\n\n: of\n\nae\n\npot\n\nioe\n\ner,\n\naoe\n\nae\n\nemi Ley\n\ni\n\nae\n\nns\n\n“>\n\na\n\nMe\n\nsoe\n\nag\n\naN\n\nSie\n\nonan 5\n",
+          "completed": true
+        }
+      ]
+    }
+  ],
+  "barcode": {
+    "engine": "@zxing/library",
+    "version": "0.23.0",
+    "preprocessing": "EXIF orientation and grayscale in memory; no crop or resize",
+    "scope": "First Code128 result only; not all-code or MaxiCode coverage",
+    "exact_tracking_matches": 4,
+    "rows": [
+      {
+        "id": "dynamsoft-img_8743",
+        "group_id": "1Z11100L0708091011",
+        "expected_tracking": "1Z11100L0708091011",
+        "decoded": "1Z11100L0708091011",
+        "exact_tracking_match": true,
+        "latency_ms": 106
+      },
+      {
+        "id": "dynamsoft-img_8745",
+        "group_id": "1Z33344N5051525354",
+        "expected_tracking": "1Z33344N5051525354",
+        "decoded": "1Z33344N5051525354",
+        "exact_tracking_match": true,
+        "latency_ms": 94
+      },
+      {
+        "id": "dynamsoft-img_8746",
+        "group_id": "1Z99900P6061626364",
+        "expected_tracking": "1Z99900P6061626364",
+        "decoded": "1Z99900P6061626364",
+        "exact_tracking_match": true,
+        "latency_ms": 93
+      },
+      {
+        "id": "dynamsoft-img_8760",
+        "group_id": "1Z33344N5051525354",
+        "expected_tracking": "1Z33344N5051525354",
+        "decoded": "1Z33344N5051525354",
+        "exact_tracking_match": true,
+        "latency_ms": 99
+      }
+    ]
+  }
+}

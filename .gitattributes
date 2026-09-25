@@ -2,3 +2,7 @@
 *.pptx binary
 *.png binary
 *.webm binary
+
+*.JPG binary
+*.jpg binary
+*.jpeg binary

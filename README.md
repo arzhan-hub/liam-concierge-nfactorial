@@ -58,6 +58,10 @@ Follow [DEMO.md](DEMO.md) for the eight-minute defense and exact test inputs. Gm
 | Architecture and reproducibility | [ARCHITECTURE.md](ARCHITECTURE.md), lockfile, setup and CI |
 | Defense ≤10 min, 10–15 slides | Twelve slides and an eight-minute script |
 
+## Label examples and OCR
+
+[Label examples, sources and OCR-first design](LABEL_DATASET.md): four CC BY 4.0 photographs of synthetic UPS-style labels, plus references for other carriers. `npm run eval:ocr` runs a local Tesseract benchmark without AI API calls. These exploratory cases are separate from the frozen golden set; browser OCR integration remains future work.
+
 ## Verification
 
 ```sh

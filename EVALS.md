@@ -58,6 +58,10 @@ Golden answer/extraction/classification calls recorded 47778 input and 1451 outp
 
 ## Limits and reproduction
 
-The label images are clean synthetic text layouts, not photographed carrier labels. They cover missing fields, unreadability, a conflicting decoded reference and excess weight, but do not represent real lighting, wrinkles, handwriting or barcode diversity. Real resident labels were intentionally excluded. There is no production success-rate claim.
+The original golden-set label images are clean synthetic text layouts, not photographed carrier labels. They cover missing fields, unreadability, a conflicting decoded reference and excess weight, but do not represent real lighting, wrinkles, handwriting or barcode diversity. Real resident labels were intentionally excluded. There is no production success-rate claim.
 
 Run `npm run eval:development`, `npm run eval:ab` and `npm run eval:golden` after configuring private keys and running `npm run rag:index`. Each run creates timestamped results and updates a latest file. Calls can vary even at temperature zero. Preserve the original dataset and report changed prompts/models as a new experiment. Unit/integration tests (51) and the full browser scenario separately verify state, access, confirmation and protocol behavior; they are not counted as AI golden cases.
+
+## External photo OCR experiment (separate from the golden set)
+
+Four CC BY 4.0 photographs of three synthetic UPS-style labels were added with provenance and metadata checks. The local experiment compared Tesseract without orientation handling, Tesseract orientation detection, explicit EXIF normalization and ZXing Code128 decoding. Exact tracking results: 0/4, 0/4, 2/4 and 4/4 respectively. The two correct OCR photos depict the same label. No names or apartments are printed, so recipient extraction is not evaluated. No LLM calls or training occurred. See [LABEL_DATASET.md](LABEL_DATASET.md) and [the raw report](evals/results/external-ups-ocr-latest.json). This exploratory benchmark does not change the original golden results. A new fixture-integrity test is additional to the original 51 automated tests.
