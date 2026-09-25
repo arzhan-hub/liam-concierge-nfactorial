@@ -1,6 +1,36 @@
 {
-  "verified_at": "2026-09-25T03:05:28.304Z",
+  "verified_at": "2026-09-25T03:09:47.607Z",
   "traces": [
+    {
+      "id": "e41de482fc5edae6cb897e86d927339c",
+      "name": "liam.resident_concierge",
+      "observations": [
+        {
+          "name": "liam.classify_request",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.resident_concierge",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.mcp_get_parcels",
+          "type": "TOOL",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.mcp_get_available_windows",
+          "type": "TOOL",
+          "input_redacted": true,
+          "output_redacted": true
+        }
+      ]
+    },
     {
       "id": "cb9c90d734c38983d6b4d0ddf05c6a85",
       "name": "liam.resident_concierge",
