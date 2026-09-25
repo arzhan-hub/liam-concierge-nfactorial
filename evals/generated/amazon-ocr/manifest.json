@@ -1,0 +1,40 @@
+{
+  "id": "amazon-ocr-demo-01",
+  "kind": "ai-edited synthetic OCR-only fixture",
+  "generator": "built-in imagegen",
+  "source": "Founder-supplied photo; original excluded from repository",
+  "sha256": "15d0982340c095f4ba901d3b82e9432e6ecbb8bcfd20b9bb7beace45806c3cba",
+  "bytes": 2579962,
+  "expected": {
+    "recipient_text": "JORDAN SAMPLE",
+    "address_line": "100 DEMO RD APT C-204",
+    "unit": "C-204",
+    "city": "DEMO CITY",
+    "state": "NJ",
+    "postal_code": "00000",
+    "tracking_text": "TBA000000000001",
+    "item_reference": "DEMOITEM001",
+    "weight_lbs": 2.0,
+    "weight_source": "label",
+    "barcode_payloads": [],
+    "intake_branch": "review",
+    "review_reason": "No verified resident record supplied; synthetic address and tracking must never be used operationally."
+  },
+  "not_for": [
+    "shipping",
+    "carrier tracking queries",
+    "barcode decoding accuracy",
+    "held-out evaluation"
+  ],
+  "validation": {
+    "visual_review": true,
+    "metadata_fields": 0,
+    "ocr_engine": "Tesseract 5.5.2, eng, psm 11",
+    "recipient_exact": true,
+    "address_line_exact": true,
+    "weight_exact": true,
+    "tracking_exact": false,
+    "all_fields_exact": false,
+    "raw_output": "demo-01.tesseract.txt"
+  }
+}

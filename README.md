@@ -60,7 +60,7 @@ Follow [DEMO.md](DEMO.md) for the eight-minute defense and exact test inputs. Gm
 
 ## Label examples and OCR
 
-[Label examples, sources and OCR-first design](LABEL_DATASET.md): 11 CC BY 4.0 photos of 10 distinct synthetic UPS-style labels, a fictional Walmart-style OCR example with replaced identifiers, and references for other carriers. `npm run eval:ocr` runs a local Tesseract benchmark without AI API calls. These exploratory cases are separate from the frozen golden set; browser OCR integration remains future work.
+[Label examples, sources and OCR-first design](LABEL_DATASET.md): 11 CC BY 4.0 photos of 10 distinct synthetic UPS-style labels, fictional Walmart-style and Amazon-style OCR examples with replaced identifiers, and references for other carriers. `npm run eval:ocr` runs a local Tesseract benchmark without AI API calls. These exploratory cases are separate from the frozen golden set; browser OCR integration remains future work.
 
 ## Verification
 

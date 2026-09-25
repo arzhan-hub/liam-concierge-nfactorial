@@ -1,0 +1,19 @@
+Use case: text-localization.
+Asset type: fictional Amazon-style OCR test photo for Liam Concierge, not a usable shipping label.
+Input image: edit target, founder's photograph of a brown Amazon cardboard box with a small top barcode sticker and a large white shipping label.
+Preserve this box, Amazon smile, cardboard texture, lighting, slight perspective, white paper shape and folds, and the overall layout of both stickers. Replace ALL personal data and shipment/item/route/date identifiers throughout the image. Do not retain any original recipient name, street, city, ZIP, tracking number, item reference, warehouse code or original barcode pixels.
+On the main white label print these exact fictional values in the corresponding positions:
+recipient: "JORDAN SAMPLE"
+street and apartment: "100 DEMO RD APT C-204"
+city/state line: "DEMO CITY NJ"
+ZIP line: "00000"
+tracking text: "TBA000000000001"
+date: "01/01"
+cycle: "CYCLE 1"
+weight: "2.0 Lbs"
+right routing codes: "DEMO" and "D000"
+bottom item reference: "DEMOITEM/1/001"
+Add a clear line "SYNTHETIC TEST - NOT FOR SHIPPING" in the empty lower portion of the main white label.
+Replace the small upper sticker's barcode with a light gray rectangle reading "TEST CODE", with "DEMOITEM001" below it.
+Replace all three square matrix codes and the horizontal barcode on the main label with light gray placeholder blocks reading "TEST CODE". Remove the partly hidden black barcode printed directly on the cardboard behind the top edge of the main white label: replace that entire barcode region with plain matching cardboard texture. No real or invented scannable code may remain anywhere. Do not create any new barcode or QR-like patterns.
+Retain the realistic look of a phone photograph, not a clean vector drawing. All replacement text must be crisp and readable at the label scale. Do not add people, hands or other labels. This is a single OCR-only example; do not make a collage.

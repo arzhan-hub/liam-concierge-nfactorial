@@ -8,7 +8,7 @@ The existing 20 original synthetic PNGs and frozen 40-case golden set remain unc
 
 The upstream README claims 18 unique labels, but the pinned annotation file lists 58 image records with only 10 distinct tracking IDs. Our 11-photo subset covers those 10 IDs; it does not establish an 18-label collection. Some expanded photos include partial neighboring labels. Ground truth refers to the primary fully visible label, not every barcode in the frame. Five target labels show weight `1` without an explicit unit: this does not justify assigning 1 lb.
 
-A separate [fictional Walmart-style example](evals/generated/walmart-ocr/README.md) was created with imagegen from a founder-supplied photo. It replaces personal and shipment identifiers and removes both original barcodes. It is OCR-only, with exact expected fields, prompt and local OCR output; it is not part of the UPS benchmark or the frozen golden set.
+Separate [Walmart-style](evals/generated/walmart-ocr/README.md) and [Amazon-style](evals/generated/amazon-ocr/README.md) fictional examples were created with imagegen from founder-supplied photos. They replace personal and shipment identifiers and remove all original barcodes. Both are OCR-only, with expected fields, exact prompts and local OCR output; neither is part of the UPS benchmark or the frozen golden set. The Amazon example includes a fictional apartment and label-sourced weight; local OCR reads those correctly but misreads the tracking prefix. Neither example establishes a verified resident match.
 
 ## Visual references found online
 
