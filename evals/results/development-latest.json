@@ -1,0 +1,1322 @@
+{
+  "suite": "development",
+  "timestamp": "2026-09-25T02:40:13.925Z",
+  "dataset_hash": "c0c99bca637a9f44410bc81a45c175d709d492103ae39ac59bc5eb6d335dc05e",
+  "prompt_version": "liam-v2",
+  "results": [
+    {
+      "config": "baseline",
+      "settings": {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "temperature": 0,
+        "top_p": 1,
+        "max_output_tokens": 512
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 806,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "a90cfe0e495b921266cbd39692138518"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1040,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 10,
+            "total_tokens": 223
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "dc45bc83acd49df83b4a06d5930d7005"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 722,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "1e0aa05f370952c418169405c33ec25b"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 709,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "0f8f671ab45c765917e75926ce25b30a"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 738,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "4ed41d3b857f3f445083bfccf28c8832"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 760,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 11,
+            "total_tokens": 227
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "f52750981201bf5087a476b24506805e"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 591,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 10,
+            "total_tokens": 230
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "639b63d94027802b4d8b371d4a3fb198"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 658,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 219,
+            "output_tokens": 10,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "3eaf18e7345e9e6c647387614587b269"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 884,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 222,
+            "output_tokens": 10,
+            "total_tokens": 232
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "be39a0f05e580b4c31bdf753719f5dba"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 2216,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "aaaa33820bdbc538966f38659bbb4a63"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 763,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "caf82268bc1c35f4aa8a217eb81aea74"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 761,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 11,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "f2a0d766d8beae38df348bec56932ce0"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 1,
+        "p50_ms": 760,
+        "p95_ms": 2216,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 1,
+            "p50_ms": 760,
+            "p95_ms": 2216
+          }
+        }
+      }
+    },
+    {
+      "config": "alternate-model",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "top_p": 1,
+        "max_output_tokens": 512
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 860,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "b9db4e16e45672396673a377922daf5f"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1045,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 211,
+            "output_tokens": 18,
+            "total_tokens": 229
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "a7210401abce44eb87dc7506c8b22e29"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 938,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "b06e21d530d2123bfaaeb4c3d8cddb9e"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1390,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "2c8ee1f73f66af0402d8761f680136a8"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 797,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "4f6d113f8f5a8bfb3ccb6037eaf1a5f3"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 2805,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 19,
+            "total_tokens": 233
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "bcef230c4b22e4b6baec4251599e0528"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 927,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 18,
+            "total_tokens": 236
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "d9a43b05e1e5c416f5e1239d0d43fa04"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 909,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 217,
+            "output_tokens": 18,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "b252510eddd20f2b5c01142091edf9c8"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 854,
+          "accuracy": 0,
+          "expected": "windows",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 18,
+            "total_tokens": 238
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "2f03b426ea06288d44c62514cbd3bf2a"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1162,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "97a358b5586ea4939dc7687127df8875"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 878,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "6e110c05f525445a289e8f5565aae464"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 833,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 19,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "ad2557de25364cd92c26b3289c52a124"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 0.9166666666666666,
+        "p50_ms": 909,
+        "p95_ms": 2805,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 0.9166666666666666,
+            "p50_ms": 909,
+            "p95_ms": 2805
+          }
+        }
+      }
+    },
+    {
+      "config": "temperature-0.3",
+      "settings": {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "temperature": 0.3,
+        "top_p": 1,
+        "max_output_tokens": 512
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 2670,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "ff5947849211cb774678af485eb6378b"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 557,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 10,
+            "total_tokens": 223
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "7fa9b2bea40c33bb3919aa66529c3789"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 759,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "1b1b95582f779634e5d52693bbea63f5"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 648,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "8074c52c494b370635088fc6f2d4c2a5"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 658,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "04181831e1ea5d066381cecfa13a21b3"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 500,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 11,
+            "total_tokens": 227
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "231c07a5298e82cc6f31ee9067a40b3b"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 804,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 10,
+            "total_tokens": 230
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "f149a29330e7663a7e36367e52612ff2"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 803,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 219,
+            "output_tokens": 10,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "093b944cac9b92219d97e22a68788be8"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 579,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 222,
+            "output_tokens": 10,
+            "total_tokens": 232
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "e07f06c819815f0a1beafcbcc110287d"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 550,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "59c4a0f58fa1738fbce4b8f2f27caa11"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 735,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "cef026f4af7a20262a8db6ab37226f59"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 654,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 11,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "4f6291da6cc445ca2ab29db6ff654296"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 1,
+        "p50_ms": 654,
+        "p95_ms": 2670,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 1,
+            "p50_ms": 654,
+            "p95_ms": 2670
+          }
+        }
+      }
+    },
+    {
+      "config": "top-p-0.8",
+      "settings": {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "temperature": 0,
+        "top_p": 0.8,
+        "max_output_tokens": 512
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 484,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "d386470fb8d57462c8867a463afd44d7"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 611,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 10,
+            "total_tokens": 223
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "b8fdede6f6295dbfe48cf4cfa3aa1090"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 694,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "f6b2844368c221612ab532a1375ad324"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 704,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "2ad612630cce7c6c1f8dcb83d409e07d"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 695,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "67f7e34cee5355163c1d36cc76d2c2ae"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 668,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 11,
+            "total_tokens": 227
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "1e7f03e824fb2228970ca55d98c5345a"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 868,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 10,
+            "total_tokens": 230
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "2366ee5c3b6435bfd13e226a9c7427ea"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 710,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 219,
+            "output_tokens": 10,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "2c745386145d08b4ef7633efc84d8825"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 766,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 222,
+            "output_tokens": 10,
+            "total_tokens": 232
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "20ceef817277fbf45b72bb365cc3e8ae"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 610,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "a3c85d151282459e76c1442f6fc95018"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 17762,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "5c2ac7979980ccd93acd43e31ff300fb"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 806,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 11,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "9bf189c7836f9709e7043c023f67f3a8"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 1,
+        "p50_ms": 695,
+        "p95_ms": 17762,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 1,
+            "p50_ms": 695,
+            "p95_ms": 17762
+          }
+        }
+      }
+    },
+    {
+      "config": "max-256",
+      "settings": {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "temperature": 0,
+        "top_p": 1,
+        "max_output_tokens": 256
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 692,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "396554cd711ada65ce90288ddcf80cfe"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 902,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 10,
+            "total_tokens": 223
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "2553217fec744aa74e4dbe521fcaea4c"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 538,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "a992223307e09ca14597584e8a0d7e67"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1811,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "2a374395daf5685cb719880f25a73a85"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 651,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "882304ccb8b091889858830d9a143e89"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 633,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 11,
+            "total_tokens": 227
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "999817cef30d156dc4c5815569bb17f0"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 652,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 10,
+            "total_tokens": 230
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "04f6ea91ba9ae322bbde79e4e8698431"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 726,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 219,
+            "output_tokens": 10,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "3f1b66c34391f62794217e9e731a833a"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 874,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 222,
+            "output_tokens": 10,
+            "total_tokens": 232
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "7d60261646f9d5f9f96031a0aae19bf1"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 751,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "854731248a8351628a9f60e5aabdacd4"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 696,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "01f3e9e7513c9e04649b2eaeba390f4d"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 762,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 11,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "20b55faa7b3f73c3503f682dbfb487eb"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 1,
+        "p50_ms": 696,
+        "p95_ms": 1811,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 1,
+            "p50_ms": 696,
+            "p95_ms": 1811
+          }
+        }
+      }
+    },
+    {
+      "config": "max-1024",
+      "settings": {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "temperature": 0,
+        "top_p": 1,
+        "max_output_tokens": 1024
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 665,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "6988faafa7cf0b714cc8f9a38dd041f1"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 905,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 10,
+            "total_tokens": 223
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "3e39da8467aae6a24b5d3bbcbb754bb0"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 554,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "2fb6693e3a582ba41ac37be0a3a47256"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 2131,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "dce90409fbfef51db019e2ed5a61e573"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 622,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "ad85165974e11d4c22b91aa5bf0f67ca"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 517,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 11,
+            "total_tokens": 227
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "d73e0730085077b1261c41e9f1e447b8"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 693,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 10,
+            "total_tokens": 230
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "a478b58df8f75b8e4fc1c4058412fe66"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 759,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 219,
+            "output_tokens": 10,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "abe9d0bd17959ff4e04364f50e20de73"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 844,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 222,
+            "output_tokens": 10,
+            "total_tokens": 232
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "19f8b1cbb240484c51abbd955464405e"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 930,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "13fd6a3e04c4096561af4d1aa6b73063"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 838,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "63ec7ada0a90b004b65f6a169892041d"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 900,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 11,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "e51a9aa16cc331b9559b465319af265d"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 1,
+        "p50_ms": 759,
+        "p95_ms": 2131,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 1,
+            "p50_ms": 759,
+            "p95_ms": 2131
+          }
+        }
+      }
+    }
+  ]
+}

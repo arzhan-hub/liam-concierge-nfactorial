@@ -1,0 +1,726 @@
+{
+  "suite": "ab",
+  "timestamp": "2026-09-25T02:40:13.880Z",
+  "dataset_hash": "219bc0910dd3f5ca68e738d30a9b51fff679d94c59633f0e61905d1706c1722c",
+  "prompt_version": "liam-v2",
+  "results": [
+    {
+      "config": "sections",
+      "settings": {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "temperature": 0,
+        "top_p": 1,
+        "max_output_tokens": 512
+      },
+      "rows": [
+        {
+          "id": "policy-01",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 4136,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The maximum weight of one accepted parcel is 25 pounds.",
+          "source_pages": [
+            2
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-1"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source states that accepted parcels weigh more than zero and at most 25 pounds, so the stated maximum is supported."
+          },
+          "usage": {
+            "input_tokens": 1251,
+            "output_tokens": 38,
+            "total_tokens": 1289
+          },
+          "judge_usage": {
+            "input_tokens": 352,
+            "output_tokens": 48,
+            "total_tokens": 400
+          },
+          "trace_id": "43811bcbba199215faafa0f7b91d78f1",
+          "judge_trace_id": "43811bcbba199215faafa0f7b91d78f1"
+        },
+        {
+          "id": "policy-02",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2566,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The weight limit for an entire delivery window is at most 150 pounds of recorded package weight.",
+          "source_pages": [
+            4
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-3"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that each window allows at most 150 pounds of recorded package weight."
+          },
+          "usage": {
+            "input_tokens": 1252,
+            "output_tokens": 45,
+            "total_tokens": 1297
+          },
+          "judge_usage": {
+            "input_tokens": 378,
+            "output_tokens": 42,
+            "total_tokens": 420
+          },
+          "trace_id": "905e916ddcdd0e904f0edbf95b7d43d1",
+          "judge_trace_id": "905e916ddcdd0e904f0edbf95b7d43d1"
+        },
+        {
+          "id": "policy-03",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2178,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "One resident may book at most three parcels per delivery window.",
+          "source_pages": [
+            4
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-3"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that one resident may book at most three parcels in a window."
+          },
+          "usage": {
+            "input_tokens": 1260,
+            "output_tokens": 38,
+            "total_tokens": 1298
+          },
+          "judge_usage": {
+            "input_tokens": 370,
+            "output_tokens": 41,
+            "total_tokens": 411
+          },
+          "trace_id": "a705475dc6fc8d4cf951d8c94c84c3d4",
+          "judge_trace_id": "a705475dc6fc8d4cf951d8c94c84c3d4"
+        },
+        {
+          "id": "policy-04",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 3863,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "Booking for a delivery window closes 30 minutes before the window starts.",
+          "source_pages": [
+            4
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-3"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that booking closes 30 minutes before the delivery window starts."
+          },
+          "usage": {
+            "input_tokens": 1222,
+            "output_tokens": 40,
+            "total_tokens": 1262
+          },
+          "judge_usage": {
+            "input_tokens": 371,
+            "output_tokens": 40,
+            "total_tokens": 411
+          },
+          "trace_id": "a5cc72cea64cec856f6dc6a1b3a1e7ac",
+          "judge_trace_id": "a5cc72cea64cec856f6dc6a1b3a1e7ac"
+        },
+        {
+          "id": "policy-05",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2819,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "No, residents do not have to connect Gmail to use delivery. They may use physical package delivery without connecting email and have options such as entering a tracking reference or sharing a single selected delivery notice instead of connecting a Gmail account.",
+          "source_pages": [
+            7
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-6"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly says residents may use physical package delivery without connecting email and lists entering a tracking reference or sharing a single selected delivery notice as alternatives. The answer accurately summarizes this."
+          },
+          "usage": {
+            "input_tokens": 1231,
+            "output_tokens": 71,
+            "total_tokens": 1302
+          },
+          "judge_usage": {
+            "input_tokens": 411,
+            "output_tokens": 59,
+            "total_tokens": 470
+          },
+          "trace_id": "86624ff837205a30c0bb12a2824a3b82",
+          "judge_trace_id": "86624ff837205a30c0bb12a2824a3b82"
+        },
+        {
+          "id": "policy-06",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 3997,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "No, the app does not authorize unattended doorstep delivery. Delivery is recorded only after physical handoff to the resident, and unattended doorstep placement is explicitly not authorized.",
+          "source_pages": [
+            5
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-4"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly says the software records direct handoff and does not authorize unattended doorstep placement. The answer accurately states this and notes that delivery is recorded only after physical handoff to the resident."
+          },
+          "usage": {
+            "input_tokens": 1229,
+            "output_tokens": 58,
+            "total_tokens": 1287
+          },
+          "judge_usage": {
+            "input_tokens": 360,
+            "output_tokens": 62,
+            "total_tokens": 422
+          },
+          "trace_id": "0a613cff99c4dc9c28c67f5261be23bd",
+          "judge_trace_id": "0a613cff99c4dc9c28c67f5261be23bd"
+        },
+        {
+          "id": "policy-07",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2281,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The recorded occupancy for 48 occupied slots out of 60 total slots is 80 percent.",
+          "source_pages": [
+            6
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-5"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that 48 of 60 defined slots corresponds to an observed occupancy of 80 percent."
+          },
+          "usage": {
+            "input_tokens": 1228,
+            "output_tokens": 45,
+            "total_tokens": 1273
+          },
+          "judge_usage": {
+            "input_tokens": 388,
+            "output_tokens": 46,
+            "total_tokens": 434
+          },
+          "trace_id": "40f5a8f7dedd5510a01b4688881b2372",
+          "judge_trace_id": "40f5a8f7dedd5510a01b4688881b2372"
+        },
+        {
+          "id": "policy-08",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 3145,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "No, moving a box to another shelf does not reset its recorded intake age in the aging report.",
+          "source_pages": [
+            8
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-7"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that moving a parcel to another shelf does not reset its recorded intake age. The answer accurately applies this to a box and the aging report."
+          },
+          "usage": {
+            "input_tokens": 1242,
+            "output_tokens": 46,
+            "total_tokens": 1288
+          },
+          "judge_usage": {
+            "input_tokens": 386,
+            "output_tokens": 56,
+            "total_tokens": 442
+          },
+          "trace_id": "d4ff8991120da6c191d2cb9674753dd5",
+          "judge_trace_id": "d4ff8991120da6c191d2cb9674753dd5"
+        },
+        {
+          "id": "policy-09",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2247,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The available rules do not establish an answer. Please check with your concierge.",
+          "source_pages": [],
+          "source_ids": [],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "No source excerpts are provided, so the answer appropriately states that the exact approved insurance coverage amount cannot be established and directs the user to check with the concierge."
+          },
+          "usage": {
+            "input_tokens": 420,
+            "output_tokens": 49,
+            "total_tokens": 469
+          },
+          "judge_usage": {
+            "input_tokens": 152,
+            "output_tokens": 55,
+            "total_tokens": 207
+          },
+          "trace_id": "b176860c4a579791715883ae029f8448",
+          "judge_trace_id": "b176860c4a579791715883ae029f8448"
+        },
+        {
+          "id": "policy-10",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2374,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The available rules do not establish an answer. Please check with your concierge.",
+          "source_pages": [],
+          "source_ids": [],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "No source excerpts are provided, and the answer appropriately states that the policy cannot be established from the available rules and directs the user to the concierge."
+          },
+          "usage": {
+            "input_tokens": 1222,
+            "output_tokens": 51,
+            "total_tokens": 1273
+          },
+          "judge_usage": {
+            "input_tokens": 155,
+            "output_tokens": 53,
+            "total_tokens": 208
+          },
+          "trace_id": "519a050bdae95e68550ad277e79bc4ad",
+          "judge_trace_id": "519a050bdae95e68550ad277e79bc4ad"
+        }
+      ],
+      "summary": {
+        "n": 10,
+        "valid_rate": 1,
+        "accuracy": 1,
+        "p50_ms": 2566,
+        "p95_ms": 4136,
+        "groups": {
+          "policy": {
+            "n": 10,
+            "valid_rate": 1,
+            "accuracy": 1,
+            "p50_ms": 2566,
+            "p95_ms": 4136
+          }
+        }
+      }
+    },
+    {
+      "config": "fixed",
+      "settings": {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "temperature": 0,
+        "top_p": 1,
+        "max_output_tokens": 512
+      },
+      "rows": [
+        {
+          "id": "policy-01",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2212,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The maximum weight of one accepted parcel is 25 pounds.",
+          "source_pages": [
+            2
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-fixed-3"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source states that accepted parcels weigh more than zero and at most 25 pounds, so the stated maximum is supported."
+          },
+          "usage": {
+            "input_tokens": 813,
+            "output_tokens": 37,
+            "total_tokens": 850
+          },
+          "judge_usage": {
+            "input_tokens": 265,
+            "output_tokens": 48,
+            "total_tokens": 313
+          },
+          "trace_id": "4ff19f4043db3643681ed50851baac44",
+          "judge_trace_id": "4ff19f4043db3643681ed50851baac44"
+        },
+        {
+          "id": "policy-02",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2526,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The weight limit for an entire delivery window is at most 150 pounds of recorded package weight.",
+          "source_pages": [
+            4
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-fixed-10"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that each window allows at most 150 pounds of recorded package weight, matching the answer."
+          },
+          "usage": {
+            "input_tokens": 822,
+            "output_tokens": 44,
+            "total_tokens": 866
+          },
+          "judge_usage": {
+            "input_tokens": 275,
+            "output_tokens": 46,
+            "total_tokens": 321
+          },
+          "trace_id": "a48bcad6ede1f2a17e2b99ce935591fe",
+          "judge_trace_id": "a48bcad6ede1f2a17e2b99ce935591fe"
+        },
+        {
+          "id": "policy-03",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2341,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "One resident may book at most three parcels in a single delivery window.",
+          "source_pages": [
+            4
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-fixed-10"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that one resident may book at most three parcels in a window, matching the answer."
+          },
+          "usage": {
+            "input_tokens": 739,
+            "output_tokens": 39,
+            "total_tokens": 778
+          },
+          "judge_usage": {
+            "input_tokens": 269,
+            "output_tokens": 45,
+            "total_tokens": 314
+          },
+          "trace_id": "5fd9c611f45f6b61c6eba98c366c01b7",
+          "judge_trace_id": "5fd9c611f45f6b61c6eba98c366c01b7"
+        },
+        {
+          "id": "policy-04",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2438,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "Booking closes 30 minutes before the delivery window starts.",
+          "source_pages": [
+            4
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-fixed-10"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that booking closes 30 minutes before the window starts, matching the answer."
+          },
+          "usage": {
+            "input_tokens": 749,
+            "output_tokens": 36,
+            "total_tokens": 785
+          },
+          "judge_usage": {
+            "input_tokens": 265,
+            "output_tokens": 43,
+            "total_tokens": 308
+          },
+          "trace_id": "01e07c9c150347a8f0625a3dfb660a3f",
+          "judge_trace_id": "01e07c9c150347a8f0625a3dfb660a3f"
+        },
+        {
+          "id": "policy-05",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 3711,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "No, residents do not have to connect Gmail to use delivery. They can use physical package delivery without connecting email by entering a tracking reference or sharing a single selected delivery notice. Connecting a personal Gmail account is voluntary.",
+          "source_pages": [
+            7
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-fixed-18"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly says residents may use physical package delivery without connecting email and lists tracking references and sharing a single delivery notice as alternatives. It also describes Gmail connection as voluntary."
+          },
+          "usage": {
+            "input_tokens": 748,
+            "output_tokens": 68,
+            "total_tokens": 816
+          },
+          "judge_usage": {
+            "input_tokens": 290,
+            "output_tokens": 58,
+            "total_tokens": 348
+          },
+          "trace_id": "ff16f2ee9ac065c8e385eb0f8be4db8e",
+          "judge_trace_id": "ff16f2ee9ac065c8e385eb0f8be4db8e"
+        },
+        {
+          "id": "policy-06",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2947,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "No, the app does not authorize unattended doorstep delivery. It requires physical handoff to the resident and does not permit unattended placement at the doorstep.",
+          "source_pages": [
+            5
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-fixed-12"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly says the software records direct physical handoff to the resident and does not authorize unattended doorstep placement."
+          },
+          "usage": {
+            "input_tokens": 803,
+            "output_tokens": 54,
+            "total_tokens": 857
+          },
+          "judge_usage": {
+            "input_tokens": 276,
+            "output_tokens": 46,
+            "total_tokens": 322
+          },
+          "trace_id": "2435802bacbbfc75092e73001a4ad37d",
+          "judge_trace_id": "2435802bacbbfc75092e73001a4ad37d"
+        },
+        {
+          "id": "policy-07",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2312,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The recorded occupancy for 48 occupied slots out of 60 total slots is 80 percent.",
+          "source_pages": [
+            6
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-fixed-15"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that 48 of 60 defined slots occupied is 80 percent."
+          },
+          "usage": {
+            "input_tokens": 832,
+            "output_tokens": 44,
+            "total_tokens": 876
+          },
+          "judge_usage": {
+            "input_tokens": 281,
+            "output_tokens": 42,
+            "total_tokens": 323
+          },
+          "trace_id": "8a70b7ca3d8fdc798d53ba430ae61688",
+          "judge_trace_id": "8a70b7ca3d8fdc798d53ba430ae61688"
+        },
+        {
+          "id": "policy-08",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2274,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "No, moving a box to another shelf does not reset its recorded intake age in the aging report.",
+          "source_pages": [
+            8
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-fixed-21"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly says moving a parcel to another shelf does not reset its recorded intake age."
+          },
+          "usage": {
+            "input_tokens": 818,
+            "output_tokens": 45,
+            "total_tokens": 863
+          },
+          "judge_usage": {
+            "input_tokens": 277,
+            "output_tokens": 42,
+            "total_tokens": 319
+          },
+          "trace_id": "ee062aeaed851c0c9edebf3dd784b62c",
+          "judge_trace_id": "ee062aeaed851c0c9edebf3dd784b62c"
+        },
+        {
+          "id": "policy-09",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2375,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The available rules do not establish an answer. Please check with your concierge.",
+          "source_pages": [],
+          "source_ids": [],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "No source excerpts are provided, so the answer appropriately states that the exact approved insurance coverage amount cannot be established and directs the user to check with the concierge."
+          },
+          "usage": {
+            "input_tokens": 837,
+            "output_tokens": 80,
+            "total_tokens": 917
+          },
+          "judge_usage": {
+            "input_tokens": 152,
+            "output_tokens": 55,
+            "total_tokens": 207
+          },
+          "trace_id": "43c5260eadc98ceda344028c8575449f",
+          "judge_trace_id": "43c5260eadc98ceda344028c8575449f"
+        },
+        {
+          "id": "policy-10",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2578,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The available rules do not establish an answer. Please check with your concierge.",
+          "source_pages": [],
+          "source_ids": [],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "No source excerpts are provided, and the answer appropriately states that the policy cannot be established from the available rules and directs the user to the concierge."
+          },
+          "usage": {
+            "input_tokens": 724,
+            "output_tokens": 83,
+            "total_tokens": 807
+          },
+          "judge_usage": {
+            "input_tokens": 155,
+            "output_tokens": 53,
+            "total_tokens": 208
+          },
+          "trace_id": "eaa3caa5a3095e73659733295d6dbc34",
+          "judge_trace_id": "eaa3caa5a3095e73659733295d6dbc34"
+        }
+      ],
+      "summary": {
+        "n": 10,
+        "valid_rate": 1,
+        "accuracy": 1,
+        "p50_ms": 2375,
+        "p95_ms": 3711,
+        "groups": {
+          "policy": {
+            "n": 10,
+            "valid_rate": 1,
+            "accuracy": 1,
+            "p50_ms": 2375,
+            "p95_ms": 3711
+          }
+        }
+      }
+    }
+  ]
+}

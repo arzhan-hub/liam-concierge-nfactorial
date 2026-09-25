@@ -1,0 +1,1221 @@
+{
+  "suite": "golden",
+  "timestamp": "2026-09-25T02:47:03.377Z",
+  "dataset_hash": "219bc0910dd3f5ca68e738d30a9b51fff679d94c59633f0e61905d1706c1722c",
+  "prompt_version": "liam-v2",
+  "results": [
+    {
+      "config": "golden",
+      "settings": {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "temperature": 0,
+        "top_p": 1,
+        "max_output_tokens": 512
+      },
+      "rows": [
+        {
+          "id": "vision-01",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1542,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "TBA880000000000",
+            "carrier": "Amazon",
+            "recipient_name": "Avery Stone",
+            "unit": "DEMO-101",
+            "weight_lbs": 1
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "TBA880000000000",
+            "carrier": "Amazon",
+            "recipient_name": "Avery Stone",
+            "unit": "DEMO-101",
+            "weight_lbs": 1
+          },
+          "expected_branch": "confirm",
+          "actual_branch": "confirm",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 40,
+            "total_tokens": 1742
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "d4067436b4f8d08062da970033f3d30c"
+        },
+        {
+          "id": "vision-02",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 2629,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "1Z999AA11000000001",
+            "carrier": "UPS",
+            "recipient_name": "Morgan Reed",
+            "unit": "DEMO-102",
+            "weight_lbs": 2
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "1Z999AA11000000001",
+            "carrier": "UPS",
+            "recipient_name": "Morgan Reed",
+            "unit": "DEMO-102",
+            "weight_lbs": 2
+          },
+          "expected_branch": "confirm",
+          "actual_branch": "confirm",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 41,
+            "total_tokens": 1743
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "0eab672c3a1767f5037af92fbfa64be5"
+        },
+        {
+          "id": "vision-03",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1191,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "770000000002",
+            "carrier": "FedEx",
+            "recipient_name": "Taylor Brooks",
+            "unit": "DEMO-103",
+            "weight_lbs": 3
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "770000000002",
+            "carrier": "FedEx",
+            "recipient_name": "Taylor Brooks",
+            "unit": "DEMO-103",
+            "weight_lbs": 3
+          },
+          "expected_branch": "confirm",
+          "actual_branch": "confirm",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 38,
+            "total_tokens": 1740
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "80dd6e4f9c094ab925dc4ffbaa7a503f"
+        },
+        {
+          "id": "vision-04",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 2008,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "9400660000000000000003",
+            "carrier": "USPS loose parcel",
+            "recipient_name": "Jordan Lane",
+            "unit": "DEMO-104",
+            "weight_lbs": 4
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "9400660000000000000003",
+            "carrier": "USPS loose parcel",
+            "recipient_name": "Jordan Lane",
+            "unit": "DEMO-104",
+            "weight_lbs": 4
+          },
+          "expected_branch": "confirm",
+          "actual_branch": "confirm",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 44,
+            "total_tokens": 1746
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "be88832dce2f4cc7a58b4bcbd2b30de8"
+        },
+        {
+          "id": "vision-05",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1211,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "DEMO-TRACK-0004",
+            "carrier": "Other",
+            "recipient_name": "Casey Quinn",
+            "unit": "DEMO-105",
+            "weight_lbs": 5
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "DEMO-TRACK-0004",
+            "carrier": "Other",
+            "recipient_name": "Casey Quinn",
+            "unit": "DEMO-105",
+            "weight_lbs": 5
+          },
+          "expected_branch": "confirm",
+          "actual_branch": "confirm",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 41,
+            "total_tokens": 1743
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "58f1d4a95f1f4e1d28dad043ee9a62d7"
+        },
+        {
+          "id": "vision-06",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1401,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "TBA880000000005",
+            "carrier": "Amazon",
+            "recipient_name": "Riley Park",
+            "unit": "DEMO-106",
+            "weight_lbs": 6
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "TBA880000000005",
+            "carrier": "Amazon",
+            "recipient_name": "Riley Park",
+            "unit": "DEMO-106",
+            "weight_lbs": 6
+          },
+          "expected_branch": "confirm",
+          "actual_branch": "confirm",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 40,
+            "total_tokens": 1742
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "3768100c53fca214a6e5571b3f95b7cb"
+        },
+        {
+          "id": "vision-07",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 920,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "1Z999AA11000000006",
+            "carrier": "UPS",
+            "recipient_name": "Jamie Bell",
+            "unit": "DEMO-107",
+            "weight_lbs": 7
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "1Z999AA11000000006",
+            "carrier": "UPS",
+            "recipient_name": "Jamie Bell",
+            "unit": "DEMO-107",
+            "weight_lbs": 7
+          },
+          "expected_branch": "confirm",
+          "actual_branch": "confirm",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 41,
+            "total_tokens": 1743
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "b2282230c1b2e2441cac55dd48a5b39a"
+        },
+        {
+          "id": "vision-08",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1227,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "770000000007",
+            "carrier": "FedEx",
+            "recipient_name": "Cameron Vale",
+            "unit": "DEMO-108",
+            "weight_lbs": 8
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "770000000007",
+            "carrier": "FedEx",
+            "recipient_name": "Cameron Vale",
+            "unit": "DEMO-108",
+            "weight_lbs": 8
+          },
+          "expected_branch": "confirm",
+          "actual_branch": "confirm",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 40,
+            "total_tokens": 1742
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "5a7e973cf3d6f4170021ab4e63668552"
+        },
+        {
+          "id": "vision-09",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1109,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "9400660000000000000008",
+            "carrier": "USPS loose parcel",
+            "recipient_name": "Drew Wells",
+            "unit": "DEMO-109",
+            "weight_lbs": 9
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "9400660000000000000008",
+            "carrier": "USPS loose parcel",
+            "recipient_name": "Drew Wells",
+            "unit": "DEMO-109",
+            "weight_lbs": 9
+          },
+          "expected_branch": "confirm",
+          "actual_branch": "confirm",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 45,
+            "total_tokens": 1747
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "c6b62e2135b630a51e17d061a900fc76"
+        },
+        {
+          "id": "vision-10",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1125,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "DEMO-TRACK-0009",
+            "carrier": "Other",
+            "recipient_name": "Robin Hayes",
+            "unit": "DEMO-110",
+            "weight_lbs": 1
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "DEMO-TRACK-0009",
+            "carrier": "Other",
+            "recipient_name": "Robin Hayes",
+            "unit": "DEMO-110",
+            "weight_lbs": 1
+          },
+          "expected_branch": "confirm",
+          "actual_branch": "confirm",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 40,
+            "total_tokens": 1742
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "27e6a671ee282d6c5bf8bccc461640cf"
+        },
+        {
+          "id": "vision-11",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1244,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "TBA880000000010",
+            "carrier": "Amazon",
+            "recipient_name": "Avery Stone",
+            "unit": null,
+            "weight_lbs": 2
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "TBA880000000010",
+            "carrier": "Amazon",
+            "recipient_name": "Avery Stone",
+            "unit": null,
+            "weight_lbs": 2
+          },
+          "expected_branch": "review",
+          "actual_branch": "review",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 37,
+            "total_tokens": 1739
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "a9e05ce83ce726ec2e31b1c591c88334"
+        },
+        {
+          "id": "vision-12",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1226,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "1Z999AA11000000011",
+            "carrier": "UPS",
+            "recipient_name": "Morgan Reed",
+            "unit": null,
+            "weight_lbs": 3
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "1Z999AA11000000011",
+            "carrier": "UPS",
+            "recipient_name": "Morgan Reed",
+            "unit": null,
+            "weight_lbs": 3
+          },
+          "expected_branch": "review",
+          "actual_branch": "review",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 38,
+            "total_tokens": 1740
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "a3e36f8a0d75fd385c9e69c618fcefda"
+        },
+        {
+          "id": "vision-13",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1027,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "770000000012",
+            "carrier": "FedEx",
+            "recipient_name": null,
+            "unit": "DEMO-113",
+            "weight_lbs": 4
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "770000000012",
+            "carrier": "FedEx",
+            "recipient_name": null,
+            "unit": "DEMO-113",
+            "weight_lbs": 4
+          },
+          "expected_branch": "review",
+          "actual_branch": "review",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 37,
+            "total_tokens": 1739
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "6f9c9b9bfe5b76b9ca049f7261c9a4db"
+        },
+        {
+          "id": "vision-14",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 902,
+          "accuracy": 0.8333333333333334,
+          "exact_match": 0,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "9400660000000000000013",
+            "carrier": "USPS loose parcel",
+            "recipient_name": null,
+            "unit": "DEMO-114",
+            "weight_lbs": 5
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "94006600000000000000013",
+            "carrier": "USPS loose parcel",
+            "recipient_name": null,
+            "unit": "DEMO-114",
+            "weight_lbs": 5
+          },
+          "expected_branch": "review",
+          "actual_branch": "review",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 43,
+            "total_tokens": 1745
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "2bdaa32a8005707e712961c50aefdfcc"
+        },
+        {
+          "id": "vision-15",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1335,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "DEMO-TRACK-0014",
+            "carrier": "Other",
+            "recipient_name": "Casey Quinn",
+            "unit": "DEMO-115",
+            "weight_lbs": null
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "DEMO-TRACK-0014",
+            "carrier": "Other",
+            "recipient_name": "Casey Quinn",
+            "unit": "DEMO-115",
+            "weight_lbs": null
+          },
+          "expected_branch": "review",
+          "actual_branch": "review",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 41,
+            "total_tokens": 1743
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "6fbc4027c40a50caf3b21bc01a28f23b"
+        },
+        {
+          "id": "vision-16",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 932,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": null,
+            "carrier": "Amazon",
+            "recipient_name": "Riley Park",
+            "unit": "DEMO-116",
+            "weight_lbs": 7
+          },
+          "actual": {
+            "readable": true,
+            "tracking": null,
+            "carrier": "Amazon",
+            "recipient_name": "Riley Park",
+            "unit": "DEMO-116",
+            "weight_lbs": 7
+          },
+          "expected_branch": "review",
+          "actual_branch": "review",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 35,
+            "total_tokens": 1737
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "5606f91a7e250285551a69968a1ca166"
+        },
+        {
+          "id": "vision-17",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1129,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "1Z999AA11000000016",
+            "carrier": "UPS",
+            "recipient_name": "Jamie Bell",
+            "unit": "DEMO-117",
+            "weight_lbs": 8
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "1Z999AA11000000016",
+            "carrier": "UPS",
+            "recipient_name": "Jamie Bell",
+            "unit": "DEMO-117",
+            "weight_lbs": 8
+          },
+          "expected_branch": "review",
+          "actual_branch": "review",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 41,
+            "total_tokens": 1743
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "95bfea66547482a9ed7c9394fd83f368"
+        },
+        {
+          "id": "vision-18",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1021,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "770000000017",
+            "carrier": "FedEx",
+            "recipient_name": "Cameron Vale",
+            "unit": "DEMO-118",
+            "weight_lbs": 9
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "770000000017",
+            "carrier": "FedEx",
+            "recipient_name": "Cameron Vale",
+            "unit": "DEMO-118",
+            "weight_lbs": 9
+          },
+          "expected_branch": "review",
+          "actual_branch": "review",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 40,
+            "total_tokens": 1742
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "b38765548e1f4d83cacd1c6087421695"
+        },
+        {
+          "id": "vision-19",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 1081,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": true,
+            "tracking": "9400660000000000000018",
+            "carrier": "USPS loose parcel",
+            "recipient_name": "Drew Wells",
+            "unit": "DEMO-119",
+            "weight_lbs": 32
+          },
+          "actual": {
+            "readable": true,
+            "tracking": "9400660000000000000018",
+            "carrier": "USPS loose parcel",
+            "recipient_name": "Drew Wells",
+            "unit": "DEMO-119",
+            "weight_lbs": 32
+          },
+          "expected_branch": "review",
+          "actual_branch": "review",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 45,
+            "total_tokens": 1747
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "0816f1afe24b8213ff6d4fcc3d141bc0"
+        },
+        {
+          "id": "vision-20",
+          "kind": "vision",
+          "valid": true,
+          "latency_ms": 843,
+          "accuracy": 1,
+          "exact_match": 1,
+          "branch_accuracy": 1,
+          "expected": {
+            "readable": false,
+            "tracking": null,
+            "carrier": "Other",
+            "recipient_name": null,
+            "unit": null,
+            "weight_lbs": null
+          },
+          "actual": {
+            "readable": false,
+            "tracking": null,
+            "carrier": "Other",
+            "recipient_name": null,
+            "unit": null,
+            "weight_lbs": null
+          },
+          "expected_branch": "retake",
+          "actual_branch": "retake",
+          "usage": {
+            "input_tokens": 1702,
+            "output_tokens": 30,
+            "total_tokens": 1732
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "1b930d4382553ba84ea64830b67cf9ec"
+        },
+        {
+          "id": "policy-01",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2093,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The maximum weight of one accepted parcel is 25 pounds.",
+          "source_pages": [
+            2
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-1"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source states that accepted parcels may weigh at most 25 pounds."
+          },
+          "usage": {
+            "input_tokens": 1252,
+            "output_tokens": 38,
+            "total_tokens": 1290
+          },
+          "judge_usage": {
+            "input_tokens": 352,
+            "output_tokens": 38,
+            "total_tokens": 390
+          },
+          "trace_id": "22cf9c48636f90029fbc9b42ad2e751e",
+          "judge_trace_id": "22cf9c48636f90029fbc9b42ad2e751e"
+        },
+        {
+          "id": "policy-02",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2359,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The weight limit for an entire delivery window is at most 150 pounds of recorded package weight.",
+          "source_pages": [
+            4
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-3"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source states that each delivery window allows at most 150 pounds of recorded package weight, matching the answer."
+          },
+          "usage": {
+            "input_tokens": 1252,
+            "output_tokens": 45,
+            "total_tokens": 1297
+          },
+          "judge_usage": {
+            "input_tokens": 378,
+            "output_tokens": 46,
+            "total_tokens": 424
+          },
+          "trace_id": "151ccab2a1144bbd73a13fad9cb2008b",
+          "judge_trace_id": "151ccab2a1144bbd73a13fad9cb2008b"
+        },
+        {
+          "id": "policy-03",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2219,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "One resident may book at most three parcels per delivery window.",
+          "source_pages": [
+            4
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-3"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that one resident may book at most three parcels in a window."
+          },
+          "usage": {
+            "input_tokens": 1260,
+            "output_tokens": 38,
+            "total_tokens": 1298
+          },
+          "judge_usage": {
+            "input_tokens": 370,
+            "output_tokens": 41,
+            "total_tokens": 411
+          },
+          "trace_id": "539d1bdd69a4dd039ae838ccb7e95b05",
+          "judge_trace_id": "539d1bdd69a4dd039ae838ccb7e95b05"
+        },
+        {
+          "id": "policy-04",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 1972,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "Booking for a delivery window closes 30 minutes before the window starts.",
+          "source_pages": [
+            4
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-3"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that booking closes 30 minutes before the delivery window starts."
+          },
+          "usage": {
+            "input_tokens": 1222,
+            "output_tokens": 40,
+            "total_tokens": 1262
+          },
+          "judge_usage": {
+            "input_tokens": 371,
+            "output_tokens": 40,
+            "total_tokens": 411
+          },
+          "trace_id": "923f3e91f6a0fe6eef8c08a7af9a5252",
+          "judge_trace_id": "923f3e91f6a0fe6eef8c08a7af9a5252"
+        },
+        {
+          "id": "policy-05",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 3145,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "No, residents do not have to connect Gmail to use delivery. They may use physical package delivery without connecting email and have options such as entering a tracking reference or sharing a single selected delivery notice instead of connecting a Gmail account.",
+          "source_pages": [
+            7
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-6"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly says residents may use physical package delivery without connecting email and lists entering a tracking reference or sharing a single selected delivery notice as alternatives. The answer accurately states this."
+          },
+          "usage": {
+            "input_tokens": 1231,
+            "output_tokens": 71,
+            "total_tokens": 1302
+          },
+          "judge_usage": {
+            "input_tokens": 411,
+            "output_tokens": 59,
+            "total_tokens": 470
+          },
+          "trace_id": "d7980d9c4bc088a9927787546ecad870",
+          "judge_trace_id": "d7980d9c4bc088a9927787546ecad870"
+        },
+        {
+          "id": "policy-06",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2128,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "No, the app does not authorize unattended doorstep delivery. Delivery is recorded only after physical handoff to the resident, and unattended doorstep placement is explicitly not authorized.",
+          "source_pages": [
+            5
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-4"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly says the software records direct handoff and does not authorize unattended doorstep placement. The answer accurately states this and notes that delivery is recorded only after physical handoff to the resident."
+          },
+          "usage": {
+            "input_tokens": 1228,
+            "output_tokens": 58,
+            "total_tokens": 1286
+          },
+          "judge_usage": {
+            "input_tokens": 360,
+            "output_tokens": 62,
+            "total_tokens": 422
+          },
+          "trace_id": "a479752b8fc06db3e04073d6cb12610c",
+          "judge_trace_id": "a479752b8fc06db3e04073d6cb12610c"
+        },
+        {
+          "id": "policy-07",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2656,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The recorded occupancy for 48 occupied slots out of 60 total slots is 80 percent.",
+          "source_pages": [
+            6
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-5"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that 48 of 60 defined slots occupied is 80 percent."
+          },
+          "usage": {
+            "input_tokens": 1228,
+            "output_tokens": 45,
+            "total_tokens": 1273
+          },
+          "judge_usage": {
+            "input_tokens": 388,
+            "output_tokens": 42,
+            "total_tokens": 430
+          },
+          "trace_id": "463fe481e1387dfc7e82d7c768fe0a68",
+          "judge_trace_id": "463fe481e1387dfc7e82d7c768fe0a68"
+        },
+        {
+          "id": "policy-08",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2323,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "No, moving a parcel to another shelf does not reset its recorded intake age in the aging report.",
+          "source_pages": [
+            8
+          ],
+          "source_ids": [
+            "e1c9864fabeff274-sections-7"
+          ],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "The source explicitly states that moving a parcel to another shelf does not reset its recorded intake age."
+          },
+          "usage": {
+            "input_tokens": 1242,
+            "output_tokens": 46,
+            "total_tokens": 1288
+          },
+          "judge_usage": {
+            "input_tokens": 386,
+            "output_tokens": 43,
+            "total_tokens": 429
+          },
+          "trace_id": "c5c12606958d2956baf6a342c8620dba",
+          "judge_trace_id": "c5c12606958d2956baf6a342c8620dba"
+        },
+        {
+          "id": "policy-09",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 2117,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The available rules do not establish an answer. Please check with your concierge.",
+          "source_pages": [],
+          "source_ids": [],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "No source excerpts are provided, so the answer appropriately states that the exact approved insurance coverage amount cannot be established and directs the user to check with the concierge."
+          },
+          "usage": {
+            "input_tokens": 420,
+            "output_tokens": 64,
+            "total_tokens": 484
+          },
+          "judge_usage": {
+            "input_tokens": 152,
+            "output_tokens": 55,
+            "total_tokens": 207
+          },
+          "trace_id": "e0ed6943a1369d3306cf72f58798a844",
+          "judge_trace_id": "e0ed6943a1369d3306cf72f58798a844"
+        },
+        {
+          "id": "policy-10",
+          "kind": "policy",
+          "valid": true,
+          "latency_ms": 3112,
+          "accuracy": 1,
+          "citation_correct": 1,
+          "faithfulness": 1,
+          "relevance": 1,
+          "answer": "The available rules do not establish an answer. Please check with your concierge.",
+          "source_pages": [],
+          "source_ids": [],
+          "judge": {
+            "faithful": true,
+            "relevant": true,
+            "reason": "No source excerpts are provided, and the answer explicitly states that the rules do not establish a policy and directs the user to the concierge."
+          },
+          "usage": {
+            "input_tokens": 1222,
+            "output_tokens": 107,
+            "total_tokens": 1329
+          },
+          "judge_usage": {
+            "input_tokens": 155,
+            "output_tokens": 51,
+            "total_tokens": 206
+          },
+          "trace_id": "57ac390d129b05dbd88e0042cceec96e",
+          "judge_trace_id": "57ac390d129b05dbd88e0042cceec96e"
+        },
+        {
+          "id": "intent-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 524,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "9648d9f85033993de3f49e6b98cc77e5"
+        },
+        {
+          "id": "intent-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 625,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "268ea58575801bd81ea4649e5e480ee9"
+        },
+        {
+          "id": "intent-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 642,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "ab87c1d3a9ab393991f3aed8019b5b8e"
+        },
+        {
+          "id": "intent-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 738,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 217,
+            "output_tokens": 10,
+            "total_tokens": 227
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "503738749edc8bd7b0189ec5e4fb1797"
+        },
+        {
+          "id": "intent-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 2088,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "dc7388a27d5f420cb5b591d7d8d1fa40"
+        },
+        {
+          "id": "intent-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 616,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 217,
+            "output_tokens": 11,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "b840bbaa2cc2f021fcacd90f30d80b3d"
+        },
+        {
+          "id": "intent-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 549,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 225,
+            "output_tokens": 11,
+            "total_tokens": 236
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "f400713556e0f1040cc24554e2e14f79"
+        },
+        {
+          "id": "intent-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 775,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 219,
+            "output_tokens": 10,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "689cf94b945c8fa7c0d10d054fc132ba"
+        },
+        {
+          "id": "intent-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 554,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 10,
+            "total_tokens": 230
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "7cff8054246f621c838faba9a110176b"
+        },
+        {
+          "id": "intent-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 690,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "39d9a14646811a67bbe57b9ffead370d"
+        }
+      ],
+      "summary": {
+        "n": 40,
+        "valid_rate": 1,
+        "accuracy": 0.9958333333333333,
+        "p50_ms": 1191,
+        "p95_ms": 2656,
+        "groups": {
+          "vision": {
+            "n": 20,
+            "valid_rate": 1,
+            "accuracy": 0.9916666666666668,
+            "p50_ms": 1129,
+            "p95_ms": 2008
+          },
+          "policy": {
+            "n": 10,
+            "valid_rate": 1,
+            "accuracy": 1,
+            "p50_ms": 2219,
+            "p95_ms": 3145
+          },
+          "intent": {
+            "n": 10,
+            "valid_rate": 1,
+            "accuracy": 1,
+            "p50_ms": 625,
+            "p95_ms": 2088
+          }
+        }
+      }
+    }
+  ]
+}

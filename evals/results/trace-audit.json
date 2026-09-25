@@ -1,0 +1,89 @@
+{
+  "verified_at": "2026-09-25T03:05:28.304Z",
+  "traces": [
+    {
+      "id": "cb9c90d734c38983d6b4d0ddf05c6a85",
+      "name": "liam.resident_concierge",
+      "observations": [
+        {
+          "name": "liam.resident_concierge",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.classify_request",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.mcp_get_available_windows",
+          "type": "TOOL",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.mcp_get_parcels",
+          "type": "TOOL",
+          "input_redacted": true,
+          "output_redacted": true
+        }
+      ]
+    },
+    {
+      "id": "2f10ae4721059e0b18d2162e5f28bad0",
+      "name": "liam.resident_concierge",
+      "observations": [
+        {
+          "name": "liam.classify_request",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.resident_concierge",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.mcp_get_parcels",
+          "type": "TOOL",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.mcp_get_available_windows",
+          "type": "TOOL",
+          "input_redacted": true,
+          "output_redacted": true
+        }
+      ]
+    },
+    {
+      "id": "d4067436b4f8d08062da970033f3d30c",
+      "name": "liam.eval_vision-01",
+      "observations": [
+        {
+          "name": "liam.eval_vision-01",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.label_extraction",
+          "type": "GENERATION",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.skill_liam_parcel_exceptions",
+          "type": "TOOL",
+          "input_redacted": true,
+          "output_redacted": true
+        }
+      ]
+    }
+  ]
+}

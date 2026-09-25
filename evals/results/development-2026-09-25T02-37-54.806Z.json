@@ -1,0 +1,1322 @@
+{
+  "suite": "development",
+  "timestamp": "2026-09-25T02:37:54.806Z",
+  "dataset_hash": "c0c99bca637a9f44410bc81a45c175d709d492103ae39ac59bc5eb6d335dc05e",
+  "prompt_version": "liam-v2",
+  "results": [
+    {
+      "config": "baseline",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "top_p": 1,
+        "max_output_tokens": 512
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 2808,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "0e0c37a057ab2d36c04ec6f2b9470a60"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 2473,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 211,
+            "output_tokens": 18,
+            "total_tokens": 229
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "b931634c6d0cff88564292ca8b6a5744"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1635,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "6366d955721a0bd26d36933aef3d35d7"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1129,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "cfd85f6a6aee1b12bd39ffc3bdc38519"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1182,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "4bebf020b9b6fe4c79fe81a8938b9021"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1925,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 19,
+            "total_tokens": 233
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "3f98538039d2b22f8fda34ace47dfc23"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1325,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 18,
+            "total_tokens": 236
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "aed4e164af959aae259998327591f1fe"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1861,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 217,
+            "output_tokens": 18,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "c3ba3f2a5bf3a995f375dc7930f6234e"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1168,
+          "accuracy": 0,
+          "expected": "windows",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 18,
+            "total_tokens": 238
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "28fdace45477b068b63e72ea5d2765d3"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1094,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "37b59ce38f0eb4d783a8c767909378b7"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1363,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "17afda508a17c6332775d266358bb831"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1558,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 19,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "c8ec8f8048f558002eb5fda660b5ed55"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 0.9166666666666666,
+        "p50_ms": 1363,
+        "p95_ms": 2808,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 0.9166666666666666,
+            "p50_ms": 1363,
+            "p95_ms": 2808
+          }
+        }
+      }
+    },
+    {
+      "config": "model-4.1-mini",
+      "settings": {
+        "model": "gpt-4.1-mini-2025-04-14",
+        "temperature": 0,
+        "top_p": 1,
+        "max_output_tokens": 512
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 962,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "8c49fb5ed77525853be95fe0422c1744"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1162,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 10,
+            "total_tokens": 223
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "43a04acd8af38484b5ad20dcb4930dba"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1049,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "abcc048d5f734b4118e373326fe370ac"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1572,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 215,
+            "output_tokens": 10,
+            "total_tokens": 225
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "ab10cebb7f8fc2650212c7a3fcc93f00"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 883,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "1df631ae8e28f552d1bf514203972d7f"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 882,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 11,
+            "total_tokens": 227
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "0942675fdf9cd2afc1760c2a89124baa"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 946,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 10,
+            "total_tokens": 230
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "578f0f456b86364ee882b5a549657ea2"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 950,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 219,
+            "output_tokens": 10,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "5060663a30f59a2d71e35318d736ad0b"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1213,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 222,
+            "output_tokens": 10,
+            "total_tokens": 232
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "590f3638a9c864e9ccc6f1087a505352"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1087,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 10,
+            "total_tokens": 226
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "c68f35f71ee69efedec70ffe4aba735c"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 749,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 10,
+            "total_tokens": 228
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "9b79a0f440ecded6b7a0f1d7502ec96d"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 974,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 11,
+            "total_tokens": 229
+          },
+          "model": "gpt-4.1-mini-2025-04-14",
+          "trace_id": "5f072931c952a4c197bdb75a219336b9"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 1,
+        "p50_ms": 962,
+        "p95_ms": 1572,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 1,
+            "p50_ms": 962,
+            "p95_ms": 1572
+          }
+        }
+      }
+    },
+    {
+      "config": "temperature-0.3",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0.3,
+        "top_p": 1,
+        "max_output_tokens": 512
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1216,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "240e100133a63da13a99ea9a4b8ff469"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 858,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 211,
+            "output_tokens": 18,
+            "total_tokens": 229
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "804d086a354ef4998441939e2731b870"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 893,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "7dc87a78b4d9630d8624745ec6b2f7ed"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1045,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "05635ee5fc6c09447acf9d07c711f392"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 929,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "04ae914f294205abbe39fbdea2f33279"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 883,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 19,
+            "total_tokens": 233
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "330a7b34f095437ce4d62bb669774105"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 867,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 18,
+            "total_tokens": 236
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "75c4c423a907d367dea0e2f532ef05fa"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1059,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 217,
+            "output_tokens": 18,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "77941c999209d3b72f65656582768175"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1157,
+          "accuracy": 0,
+          "expected": "windows",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 18,
+            "total_tokens": 238
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "fe711062f4f8570ce88bc42453e5193d"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 868,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "5795071d63797e3eacde8542e36a7b2c"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1101,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "af72539fd0a3af1d103571de672b386f"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1294,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 19,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "af6e6fd0092eb6e343fde0062208e331"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 0.9166666666666666,
+        "p50_ms": 929,
+        "p95_ms": 1294,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 0.9166666666666666,
+            "p50_ms": 929,
+            "p95_ms": 1294
+          }
+        }
+      }
+    },
+    {
+      "config": "top-p-0.8",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "top_p": 0.8,
+        "max_output_tokens": 512
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 957,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "58ed5389f0b121cb3a9e11439837b660"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 869,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 211,
+            "output_tokens": 18,
+            "total_tokens": 229
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "691fb46fea260cb10904c3109c646ce1"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 968,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "a5254cc22b77595f6bb799f229f6ebdb"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 881,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "8a8f17fe2bb56658986fb431cc4d7fc0"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 836,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "01860dd778407e761a9318d74c87e2b3"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 808,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 19,
+            "total_tokens": 233
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "b6d892ebc450bc8da544fad12c213a75"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 993,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 18,
+            "total_tokens": 236
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "33bfe9e8a9e2cfbd6fe14de45e9154ce"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1172,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 217,
+            "output_tokens": 18,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "29c3c2f2151d51fa6fd0ac07448525d3"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 916,
+          "accuracy": 0,
+          "expected": "windows",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 18,
+            "total_tokens": 238
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "0d8748547fbfd7c5bea683683fea7e06"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 893,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "4e39ac46cbbccb5335cbfdd06200c7ef"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 983,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "a1a649aabb783c3546444167280eeaf4"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 981,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 19,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "29d61c3160343fba1b03b5b5f08f4014"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 0.9166666666666666,
+        "p50_ms": 916,
+        "p95_ms": 1172,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 0.9166666666666666,
+            "p50_ms": 916,
+            "p95_ms": 1172
+          }
+        }
+      }
+    },
+    {
+      "config": "max-256",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "top_p": 1,
+        "max_output_tokens": 256
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1002,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "a60f632a4a4af32471458d5663be2383"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 948,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 211,
+            "output_tokens": 18,
+            "total_tokens": 229
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "442a2af0880bb01e901eef47d9fc0d9b"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1105,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "590a0a9263d9627efca7799b9261f1f3"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 2767,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "2c650f9042223adc4a883c9d25fe55cb"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1147,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "98c22ff716b9af93789161f464f3d5fd"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 872,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 19,
+            "total_tokens": 233
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "811e91bfca8350b3103b538ea74ee9bb"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1053,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 18,
+            "total_tokens": 236
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "e1d9f8f352a7e5627e6345dfb75216eb"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1051,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 217,
+            "output_tokens": 18,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "a973c0f2212257bcd97d76c36d232e69"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1049,
+          "accuracy": 0,
+          "expected": "windows",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 18,
+            "total_tokens": 238
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "a020c4423daacbc26952117a2ec92a06"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1048,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "57a68ac3e60e977b000984e4c43a12ab"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1042,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "31ebf67857b54f200d585bcf6c2c6c51"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 833,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 19,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "8255169e4e05cb4032fa115160567719"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 0.9166666666666666,
+        "p50_ms": 1048,
+        "p95_ms": 2767,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 0.9166666666666666,
+            "p50_ms": 1048,
+            "p95_ms": 2767
+          }
+        }
+      }
+    },
+    {
+      "config": "max-1024",
+      "settings": {
+        "model": "gpt-6-luna",
+        "temperature": 0,
+        "top_p": 1,
+        "max_output_tokens": 1024
+      },
+      "rows": [
+        {
+          "id": "dev-01",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1340,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "12335998e77510f5c51ebfe3a7433394"
+        },
+        {
+          "id": "dev-02",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 874,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 211,
+            "output_tokens": 18,
+            "total_tokens": 229
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "6bc6649519263f662cf3ceff55553271"
+        },
+        {
+          "id": "dev-03",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1114,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "9ac1f137db28162d2fd6419defe87f46"
+        },
+        {
+          "id": "dev-04",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 907,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 213,
+            "output_tokens": 18,
+            "total_tokens": 231
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "17ad789484d9300aa48661a3054283c6"
+        },
+        {
+          "id": "dev-05",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1008,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "82b015446fe1fdc328fa53883d141517"
+        },
+        {
+          "id": "dev-06",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 892,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 19,
+            "total_tokens": 233
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "ad83587597aa73ebd15d72d1fb690fbb"
+        },
+        {
+          "id": "dev-07",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1080,
+          "accuracy": 1,
+          "expected": "packages",
+          "actual": "packages",
+          "usage": {
+            "input_tokens": 218,
+            "output_tokens": 18,
+            "total_tokens": 236
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "18eadd93261d9bb2ce1993d5cd29a92d"
+        },
+        {
+          "id": "dev-08",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1071,
+          "accuracy": 1,
+          "expected": "expected",
+          "actual": "expected",
+          "usage": {
+            "input_tokens": 217,
+            "output_tokens": 18,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "4c53867650b3b4403932c6d2403a52af"
+        },
+        {
+          "id": "dev-09",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1242,
+          "accuracy": 1,
+          "expected": "windows",
+          "actual": "windows",
+          "usage": {
+            "input_tokens": 220,
+            "output_tokens": 18,
+            "total_tokens": 238
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "d4a8604d8ec26679d17f9412f5634764"
+        },
+        {
+          "id": "dev-10",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1049,
+          "accuracy": 1,
+          "expected": "book",
+          "actual": "book",
+          "usage": {
+            "input_tokens": 214,
+            "output_tokens": 18,
+            "total_tokens": 232
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "585e1f58fea13a4033779ee2de853a4c"
+        },
+        {
+          "id": "dev-11",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 862,
+          "accuracy": 1,
+          "expected": "policy",
+          "actual": "policy",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 18,
+            "total_tokens": 234
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "f859094b0d16ff058fcfaf09996b87d3"
+        },
+        {
+          "id": "dev-12",
+          "kind": "intent",
+          "valid": true,
+          "latency_ms": 1031,
+          "accuracy": 1,
+          "expected": "unavailable",
+          "actual": "unavailable",
+          "usage": {
+            "input_tokens": 216,
+            "output_tokens": 19,
+            "total_tokens": 235
+          },
+          "model": "gpt-6-luna",
+          "trace_id": "28bf5e3b362b31bc3756364533663054"
+        }
+      ],
+      "summary": {
+        "n": 12,
+        "valid_rate": 1,
+        "accuracy": 1,
+        "p50_ms": 1031,
+        "p95_ms": 1340,
+        "groups": {
+          "intent": {
+            "n": 12,
+            "valid_rate": 1,
+            "accuracy": 1,
+            "p50_ms": 1031,
+            "p95_ms": 1340
+          }
+        }
+      }
+    }
+  ]
+}

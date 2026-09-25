@@ -1,0 +1,154 @@
+.operations-page {
+  max-width: 1120px;
+  margin: auto;
+  padding: 32px 24px 64px;
+  color: #253d37;
+}
+.operations-page header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.operations-page a {
+  color: inherit;
+  text-decoration: underline;
+}
+.operations-page h1 {
+  font-size: clamp(28px, 4vw, 40px);
+  margin-bottom: 12px;
+}
+.operations-page h2 {
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+.operations-page h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.operations-page p {
+  line-height: 1.6;
+  margin: 10px 0;
+}
+.ops-intro {
+  max-width: 780px;
+}
+.operations-page section {
+  background: #fff;
+  border: 1px solid #dce2dc;
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 24px;
+}
+.ops-rooms,
+.ops-actions,
+.ops-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin: 20px 0;
+}
+.ops-room,
+.ops-actions > form,
+.ops-actions > div {
+  border: 1px solid #dce2dc;
+  border-radius: 12px;
+  padding: 20px;
+}
+.ops-room strong {
+  font-size: 26px;
+}
+.operations-page label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+}
+.operations-page input,
+.operations-page select {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #b5c4bb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: white;
+  color: #253d37;
+  font: inherit;
+}
+.operations-page button {
+  background: #23483d;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 18px;
+  margin-top: 14px;
+  font: inherit;
+  cursor: pointer;
+}
+.operations-page button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+.operations-page summary {
+  cursor: pointer;
+  padding: 12px 0;
+  font-weight: 600;
+}
+.operations-page .ops-confirm {
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: 1.5;
+}
+.operations-page .ops-confirm input {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  margin-top: 2px;
+}
+.ops-error {
+  color: #8a3f20;
+  background: #fff5ed;
+  padding: 10px;
+  border-radius: 8px;
+}
+.ops-notice {
+  color: #23483d;
+  background: #e7f1e9;
+  padding: 12px;
+  border-radius: 8px;
+}
+.ops-result {
+  border-top: 1px solid #dce2dc;
+  padding-top: 24px;
+}
+.ops-table {
+  overflow-x: auto;
+}
+.ops-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+}
+.ops-table th,
+.ops-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e6e9e4;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 680px) {
+  .operations-page {
+    padding: 24px 14px;
+  }
+  .operations-page section {
+    padding: 18px;
+  }
+  .ops-rooms,
+  .ops-actions,
+  .ops-fields {
+    grid-template-columns: 1fr;
+  }
+}

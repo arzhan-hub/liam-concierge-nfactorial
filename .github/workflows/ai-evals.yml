@@ -1,0 +1,42 @@
+name: Manual paid AI evaluation
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    environment: ai-evaluation
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: liam_test
+          POSTGRES_PASSWORD: ephemeral-eval-only
+          POSTGRES_DB: liam_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U liam_test"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://liam_test:ephemeral-eval-only@127.0.0.1:5432/liam_test
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
+      LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
+      LANGFUSE_BASE_URL: ${{ vars.LANGFUSE_BASE_URL }}
+      AI_TRACING_PROVIDER: langfuse
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '26'
+          cache: npm
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: npm ci
+      - run: npm run rag:index
+      - run: npm run eval:golden
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ai-evaluation-results
+          path: evals/results/
