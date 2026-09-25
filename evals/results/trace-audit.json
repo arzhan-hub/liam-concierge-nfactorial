@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-09-25T03:09:47.607Z",
+  "verified_at": "2026-09-25T03:16:06.600Z",
   "traces": [
     {
       "id": "e41de482fc5edae6cb897e86d927339c",
@@ -110,6 +110,102 @@
         {
           "name": "liam.skill_liam_parcel_exceptions",
           "type": "TOOL",
+          "input_redacted": true,
+          "output_redacted": true
+        }
+      ]
+    },
+    {
+      "id": "9af0dfb90edc77d25ed72be69dc66963",
+      "name": "liam.label_intake_draft",
+      "observations": [
+        {
+          "name": "liam.label_intake_draft",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.label_extraction",
+          "type": "GENERATION",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.skill_liam_parcel_exceptions",
+          "type": "TOOL",
+          "input_redacted": true,
+          "output_redacted": true
+        }
+      ]
+    },
+    {
+      "id": "1ece19bc46a2491ec399edc6f4797715",
+      "name": "liam.resident_concierge",
+      "observations": [
+        {
+          "name": "liam.resident_concierge",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.classify_request",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.resident_intent",
+          "type": "GENERATION",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.mcp_get_room_capacity",
+          "type": "TOOL",
+          "input_redacted": true,
+          "output_redacted": true
+        }
+      ]
+    },
+    {
+      "id": "e85ed0972610979fe92b47491a55e92d",
+      "name": "liam.resident_concierge",
+      "observations": [
+        {
+          "name": "liam.retrieve_and_answer_policy",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.resident_concierge",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.classify_request",
+          "type": "CHAIN",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.policy_embeddings",
+          "type": "EMBEDDING",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.resident_intent",
+          "type": "GENERATION",
+          "input_redacted": true,
+          "output_redacted": true
+        },
+        {
+          "name": "liam.policy_answer",
+          "type": "GENERATION",
           "input_redacted": true,
           "output_redacted": true
         }

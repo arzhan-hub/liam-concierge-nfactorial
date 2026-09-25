@@ -1,3 +1,4 @@
+import { context, ROOT_CONTEXT, createContextKey } from "@opentelemetry/api";
 import { NodeSDK } from "@opentelemetry/sdk-node";
 import { LangfuseSpanProcessor } from "@langfuse/otel";
 import { startActiveObservation, getActiveTraceId, type LangfuseObservationAttributes } from "@langfuse/tracing";
@@ -15,7 +16,7 @@ export function tracingProvider(): "langfuse" | "langsmith" | "off" {
 }
 // Next.js route bundles can load this module more than once. Keep a single
 // exporter per Node process so every route flushes the registered provider.
-const globals=globalThis as unknown as {liamTracing?:{processor?:LangfuseSpanProcessor;sdk?:NodeSDK;smith?:Client}};
+const globals=globalThis as unknown as {liamTracing?:{processor?:LangfuseSpanProcessor;sdk?:NodeSDK;smith?:Client;scopeKey?:ReturnType<typeof createContextKey>}};
 const tracingState=globals.liamTracing??={};
 export function traceClient() {
   return tracingState.smith ??= new Client({apiKey:process.env.LANGSMITH_API_KEY,workspaceId:process.env.LANGSMITH_WORKSPACE_ID,timeout_ms:10000,
@@ -36,6 +37,10 @@ export async function traced<T>(name:string,fn:()=>Promise<T>,kind:Kind="chain",
   if(provider==="langsmith")return traceable(fn,{name,run_type:kind,client:traceClient(),project_name:process.env.LANGSMITH_PROJECT||"liam-concierge-nfactorial",tracingEnabled:true,
     metadata,processInputs:()=>({redacted:true}),processOutputs:o=>({redacted:true,usage_metadata:(o as {usage_metadata?:unknown})?.usage_metadata})})();
   init();
+  const scopeKey=tracingState.scopeKey??=createContextKey("liam.explicit.trace");
+  // Next.js can supply an unsampled HTTP span. Begin our explicit AI trace at
+  // a fresh root; nested model/tool/embedding observations retain that scope.
+  if(!context.active().getValue(scopeKey))return context.with(ROOT_CONTEXT.setValue(scopeKey,true),()=>traced(name,fn,kind,metadata));
   let failure:{error:unknown}|undefined;
   const invoke=async(span:{update:(attributes:LangfuseObservationAttributes)=>unknown})=>{
     span.update({input:{redacted:true},metadata,version:"liam-v2",...(typeof metadata.model==="string"?{model:metadata.model,modelParameters:metadata}:{})});

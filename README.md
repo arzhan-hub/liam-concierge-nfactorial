@@ -1,5 +1,7 @@
 # Liam Concierge — nFactorial Final Project
 
+[![Verification](https://github.com/arzhan-hub/liam-concierge-nfactorial/actions/workflows/ci.yml/badge.svg)](https://github.com/arzhan-hub/liam-concierge-nfactorial/actions/workflows/ci.yml)
+
 A package concierge application for residents and operators. The resident can check personal packages, ask service-rule questions and confirm a delivery request. The operator can review a label photo, record intake, inspect room occupancy and find aging packages. AI assists with language, images and policy retrieval; authenticated business rules control custody and booking.
 
 This is an independent student demonstration. **All committed examples are fictional.** No property approval, insurance coverage or live resident service is implied.

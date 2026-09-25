@@ -1,7 +1,7 @@
 import { chromium } from "@playwright/test";
 import { randomBytes, randomUUID, createHash } from "node:crypto";
 import { spawn } from "node:child_process";
-import { mkdir } from "node:fs/promises";
+import { mkdir, writeFile } from "node:fs/promises";
 import pg from "pg";
 import assert from "node:assert/strict";
 import zxing from "@zxing/library";
@@ -704,8 +704,11 @@ try {
     await page.goto(`${base}/label-intake`);
     await page.getByLabel("Label image",{exact:true}).setInputFiles("evals/fixtures/label-01.png");
     await page.getByRole("checkbox").check();
+    const labelResponse=page.waitForResponse(r=>r.url().endsWith("/api/labels/analyze"));
     await page.getByRole("button",{name:"Read label with AI",exact:true}).click();
     await page.getByRole("heading",{name:"Review before recording",exact:true}).waitFor({timeout:60000});
+    const labelData=await (await labelResponse).json();
+    await writeFile("test-results/live-label-trace.json",JSON.stringify({trace_id:labelData.trace_id}));
     assert.equal(await page.getByLabel("Recipient on label",{exact:true}).inputValue(),"Avery Stone");
     assert.equal(await page.getByLabel("Building / unit",{exact:true}).inputValue(),"DEMO-101");
     await page.getByLabel("Storage location",{exact:true}).fill("Fictional test shelf");

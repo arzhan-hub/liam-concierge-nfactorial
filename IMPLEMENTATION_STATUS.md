@@ -4,6 +4,6 @@ The academic core is implemented: authenticated frontend, branching LangGraph wi
 
 Verified: 51 automated tests; production build and typecheck; full desktop/mobile browser workflow; real model vision and policy retrieval on fictional inputs. Golden output validity: 40/40. Vision has one observed tracking-digit error; see EVALS.md.
 
-External setup: live Gmail still needs Google OAuth configuration and a resident's explicit authorization. Tests for Google network operations use mocked responses. Langfuse dashboard access requires its own invitation. GitHub repository access/visibility and final submission to nFactorial are separate from running the app.
+External setup: live Gmail still needs Google OAuth configuration and a resident's explicit authorization. Tests for Google network operations use mocked responses. Langfuse dashboard access requires its own invitation. The curated repository is public at https://github.com/arzhan-hub/liam-concierge-nfactorial. GitHub Actions passed unit/integration tests, production build, typecheck and the browser workflow on a fresh Linux runner. Final submission to nFactorial is a separate action.
 
 Not implemented: three daily rounds, outbound aging notifications, bodycam storage, camera-based shelf localization, courier GPS, automatic email sync/ETA forecasts, Outlook OAuth, remote ChatGPT/Claude connector and public deployment. Current app supports one daily one-hour window and direct handoff. These are not claimed as completed features or approved property service.
