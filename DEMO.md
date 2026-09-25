@@ -1,6 +1,6 @@
 # Eight-minute defense
 
-Preparation: run `npm run demo:setup`, configure AI/tracing, run `npm run rag:index`, and build/start or run dev. Open owner and resident accounts in separate browser profiles, plus the private Langfuse dashboard. Keep API keys and `.local/demo-access.txt` off-screen. Use only fictional fixtures.
+Preparation: use `npm run demo` once to create private settings, stop it, configure AI/tracing in `.env.local`, then run `npm run demo -- --ai`. The launcher indexes the policy, builds and starts the app; see [DEMO_START.md](DEMO_START.md). Open owner and resident accounts in separate browser profiles, plus the private Langfuse dashboard. Keep API keys and `.local/demo-access.txt` off-screen. Use only fictional fixtures.
 
 1. **0:00–1:05 — Problem and scope.** Slides 1–2. Package-room assistance and scheduled apartment delivery; student demo, no property approval claim.
 2. **1:05–1:50 — Resident flow.** Sign in as `avery@example.test`; open `/concierge`; ask “Please bring my parcel to my apartment” with AI consent. Show tools/steps, reload at confirmation, choose a Ready parcel/window, then confirm. Explain that capacity is rechecked. A guided button demonstrates the same workflow without model access.

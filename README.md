@@ -8,27 +8,27 @@ This is an independent student demonstration. **All committed examples are ficti
 
 ![Resident concierge with fictional packages](docs/screenshots/concierge-desktop.png)
 
-## Run locally
+## One-command mentor demo
 
-Requirements: **Node.js 26+, PostgreSQL 16 commands on PATH, pgvector installed for that PostgreSQL version, Poppler (`pdftotext`)**. A local PostgreSQL cluster is created under ignored `.local/`, listening only on `127.0.0.1:55433`. It is separate from any existing Liam Concierge database.
-
-```sh
-npm ci
-npm run demo:setup
-npm run dev
-```
-
-Open http://localhost:3000. The setup command creates fictional operator and resident accounts. Open `.local/demo-access.txt` locally for the generated password; it is not a shared public credential. Accounts: `owner@example.test`, `avery@example.test`, `morgan@example.test`. Rerunning setup preserves existing records and opens a future window if none is available. `npm run demo:stop` stops this isolated database.
-
-On macOS, PostgreSQL and Poppler can be installed with Homebrew. pgvector must match the `pg_config` for your PostgreSQL installation; verify `CREATE EXTENSION vector` works in a disposable database. On Linux use your PostgreSQL distribution's pgvector package. For an existing disposable database, manually set `.env.local` from `.env.example`, set `DEMO_MODE=true`, `LIVE_OPERATIONS=false` and a random `DEMO_PASSWORD` of at least 16 characters, then run `npm run demo:seed`. Seed refuses a database with a non-demo owner. Do not point it at a production database.
-
-Guided package queries, confirmed booking, manual intake and room checks work without AI keys. To enable real AI, edit **`.env.local` only**, adding OpenAI and Langfuse settings from [AI_SETUP.md](AI_SETUP.md). Then:
+Prerequisites: **Node.js 26+, PostgreSQL 16 tools + matching pgvector, and Poppler**. From a clean clone:
 
 ```sh
-npm run rag:index
+npm run demo
 ```
 
-Restart the app after changing settings. AI requests require a consent checkbox. Paid evaluation commands use the configured APIs; normal tests do not.
+The launcher checks prerequisites, installs locked dependencies, creates private settings, prepares an isolated local database with fictional data, builds and starts the app. Open http://localhost:3000 after **Ready**. Private generated sign-in details are in `.local/demo-access.txt`; no shared password is committed. Ctrl+C stops the app and a database started by this invocation while preserving demo records.
+
+Default mode makes no paid AI calls, even if keys exist in `.env.local`. Guided package queries, confirmed booking, manual intake, shared delivery notices and room checks work without AI. For real AI, stop the launcher, add your own OpenAI and tracing keys to **`.env.local`** using [AI_SETUP.md](AI_SETUP.md), then run:
+
+```sh
+npm run demo -- --ai
+```
+
+AI mode indexes the fictional PDF automatically, reusing unchanged indexes, then starts the app. First indexing and explicit AI requests incur API usage; paid evaluations are not run automatically. Gmail and social sign-in remain disabled in this mentor rehearsal.
+
+[Complete startup guide](DEMO_START.md) · [Clean-checkout verification](docs/mentor-start-verification.md) covers prerequisites, modes, ports, stopping and recovery. `npm run demo -- --check` only validates prerequisites/settings/ports. If port 3000 is occupied, use `npm run demo -- --port 3100`. The default database is `127.0.0.1:55433/liam_nfactorial`; a second clean checkout can select `--db-port 55434`. Existing settings and data are preserved; other database targets are refused.
+
+For development after setup, `npm run dev` remains available and follows `.env.local` directly; unlike the demo launcher it does not force guided mode. Do not point any demo command at a production database.
 
 ## Demonstration
 
@@ -74,7 +74,7 @@ npm run test:browser
 
 The database must be running. Tests create and remove randomly named schemas, without touching demo records. Browser verification starts a production server on port 3001 and uses fictional accounts. Set `BROWSER_CHANNEL=chrome` to use an installed Google Chrome instead of Playwright Chromium. After indexing the synthetic policy, `LIAM_BROWSER_LIVE_AI=true npm run test:browser` additionally verifies actual OpenAI vision and PDF RAG with Langfuse. This incurs API usage.
 
-Recorded verification: 51 automated tests, production build/typecheck and the full browser workflow passed. The golden suite returned valid output for 40/40 cases; field-level vision accuracy was 119/120 with one long tracking-number error. Details and limitations are in [EVALS.md](EVALS.md). Do not interpret this as real-world mailroom accuracy or a guarantee of a grade.
+Recorded verification: 56 automated tests, production build/typecheck and the full browser workflow passed. The golden suite returned valid output for 40/40 cases; field-level vision accuracy was 119/120 with one long tracking-number error. Details and limitations are in [EVALS.md](EVALS.md). Do not interpret this as real-world mailroom accuracy or a guarantee of a grade.
 
 ## Scope and repository contents
 

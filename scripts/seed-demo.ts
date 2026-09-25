@@ -1,7 +1,7 @@
 import {randomUUID} from 'node:crypto';
 import {mkdir,writeFile} from 'node:fs/promises';
 import {pool,ensureSchema,transaction} from '../src/lib/db.ts';
-import {hashPassword,type User} from '../src/lib/auth.ts';
+import {hashPassword,checkPassword,type User} from '../src/lib/auth.ts';
 import {receiveParcel,createWindow} from '../src/lib/service.ts';
 import {recordRoomInspection} from '../src/lib/operations.ts';
 if(process.env.DEMO_MODE!=='true'||process.env.LIVE_OPERATIONS==='true')throw new Error('Demo seed requires DEMO_MODE=true and LIVE_OPERATIONS=false.');
@@ -11,12 +11,14 @@ try{
  await ensureSchema();
  const counts=(await pool().query('SELECT count(*)::int AS n FROM users')).rows[0];
  if(counts.n>0 && !(await pool().query("SELECT 1 FROM users WHERE email='owner@example.test' AND role='owner'")).rowCount)throw new Error('Refusing to seed a database containing non-demo users.');
+ if((await pool().query("SELECT 1 FROM users WHERE email NOT LIKE '%@example.test' LIMIT 1")).rowCount)throw new Error('Refusing to seed records alongside non-demo email addresses.');
  if(counts.n===0){
   const hash=await hashPassword(password);
   const users:User[]=[{id:randomUUID(),name:'Demo Operator',email:'owner@example.test',unit:null,role:'owner'},{id:randomUUID(),name:'Avery Stone',email:'avery@example.test',unit:'DEMO-101',role:'resident'},{id:randomUUID(),name:'Morgan Reed',email:'morgan@example.test',unit:'DEMO-102',role:'resident'}];
   await transaction(async db=>{for(const u of users)await db.query('INSERT INTO users(id,name,email,unit,role,password_hash,verified_at) VALUES($1,$2,$3,$4,$5,$6,now())',[u.id,u.name,u.email,u.unit,u.role,hash]);});
  }
- const users=(await pool().query<User>("SELECT * FROM users WHERE email IN ('owner@example.test','avery@example.test','morgan@example.test')")).rows;
+ const users=(await pool().query<User & {password_hash:string}>("SELECT * FROM users WHERE email IN ('owner@example.test','avery@example.test','morgan@example.test')")).rows;
+ if(users.length!==3 || !(await Promise.all(users.map(u=>checkPassword(password,u.password_hash)))).every(Boolean))throw new Error('Existing demo accounts do not match DEMO_PASSWORD. Restore the original setting or use a clean checkout; no passwords or records were reset.');
  const seedOwner=users.find(u=>u.role==='owner')!;
  for(const [i,name,unit,recipient] of [[1,'Avery Stone','DEMO-101',users.find(u=>u.email==='avery@example.test')!.id],[2,'Morgan Reed','DEMO-102',users.find(u=>u.email==='morgan@example.test')!.id],[3,'Unclear name','Unknown',null]] as const){
   if((await pool().query('SELECT 1 FROM parcels WHERE tracking=$1',[`DEMO-PACKAGE-${i}`])).rowCount)continue;
